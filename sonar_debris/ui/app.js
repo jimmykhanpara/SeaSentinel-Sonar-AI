@@ -311,15 +311,25 @@ async function uploadAndAnalyze() {
   const formData = new FormData();
   formData.append("sonar_file", sFile);
   if (nFile) formData.append("nav_file", nFile);
-  formData.append("conf_threshold", confThreshold);
-  formData.append("enable_tvg", true);
-  formData.append("enable_lee", true);
-  formData.append("enable_slant_range", true);
-  formData.append("enable_physics", true);
+  formData.append("conf_threshold", confThreshold.toString());
+  formData.append("enable_tvg", "true");
+  formData.append("enable_lee", "true");
+  formData.append("enable_slant_range", "true");
+  formData.append("enable_physics", "true");
 
   setLoadingState(true);
   try {
     const res = await fetch("/api/upload", { method: "POST", body: formData });
+    if (!res.ok) {
+      let errDetail = `Server Error (${res.status})`;
+      try {
+        const errJson = await res.json();
+        errDetail = errJson.detail || errDetail;
+      } catch (e) {
+        errDetail = await res.text();
+      }
+      throw new Error(errDetail);
+    }
     const data = await res.json();
     loadMissionData(data.mission_id, data.report);
   } catch (err) {

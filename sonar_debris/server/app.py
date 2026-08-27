@@ -175,7 +175,7 @@ def generate_sample_mission(
 @app.post("/api/upload")
 async def upload_sonar_scan(
     sonar_file: UploadFile = File(...),
-    nav_file: Optional[UploadFile] = File(None),
+    nav_file: Optional[UploadFile] = None,
     conf_threshold: float = Form(60.0),
     enable_tvg: bool = Form(True),
     enable_lee: bool = Form(True),
@@ -185,60 +185,66 @@ async def upload_sonar_scan(
     """
     Accepts user-uploaded SSS imagery (PNG/TIFF/JPG) and optional navigation CSV/NMEA logs.
     """
-    m_id = f"upload_{uuid.uuid4().hex[:6]}"
-    mission_folder = os.path.join(STORAGE_DIR, m_id)
-    os.makedirs(mission_folder, exist_ok=True)
+    try:
+        m_id = f"upload_{uuid.uuid4().hex[:6]}"
+        mission_folder = os.path.join(STORAGE_DIR, m_id)
+        os.makedirs(mission_folder, exist_ok=True)
 
-    sonar_bytes = await sonar_file.read()
-    nav_bytes = await nav_file.read() if nav_file else None
+        sonar_bytes = await sonar_file.read()
+        nav_bytes = await nav_file.read() if nav_file and nav_file.filename else None
 
-    # Save uploaded files
-    img_path = os.path.join(mission_folder, sonar_file.filename)
-    with open(img_path, "wb") as f:
-        f.write(sonar_bytes)
+        # Save uploaded files
+        img_path = os.path.join(mission_folder, sonar_file.filename or "uploaded_sonar.png")
+        with open(img_path, "wb") as f:
+            f.write(sonar_bytes)
 
-    if nav_bytes:
-        nav_path = os.path.join(mission_folder, nav_file.filename)
-        with open(nav_path, "wb") as f:
-            f.write(nav_bytes)
-    else:
-        nav_path = None
+        if nav_bytes and nav_file:
+            nav_path = os.path.join(mission_folder, nav_file.filename or "uploaded_nav.csv")
+            with open(nav_path, "wb") as f:
+                f.write(nav_bytes)
+        else:
+            nav_path = None
 
-    # Configure Pipeline
-    config = PipelineConfig(
-        confidence_threshold_percent=conf_threshold,
-        enable_tvg=enable_tvg,
-        enable_lee_filter=enable_lee,
-        enable_slant_range_correction=enable_slant_range,
-        enable_shadow_physics_validation=enable_physics,
-        export_thumbnails=True
-    )
-    pipeline = SonarDebrisPipeline(config=config)
+        # Configure Pipeline
+        config = PipelineConfig(
+            confidence_threshold_percent=float(conf_threshold),
+            enable_tvg=bool(enable_tvg),
+            enable_lee_filter=bool(enable_lee),
+            enable_slant_range_correction=bool(enable_slant_range),
+            enable_shadow_physics_validation=bool(enable_physics),
+            export_thumbnails=True
+        )
+        pipeline = SonarDebrisPipeline(config=config)
 
-    report = pipeline.run(
-        sonar_input=img_path,
-        nav_input=nav_path,
-        mission_id=m_id,
-        survey_name=sonar_file.filename,
-        output_dir=mission_folder
-    )
+        report = pipeline.run(
+            sonar_input=img_path,
+            nav_input=nav_path,
+            mission_id=m_id,
+            survey_name=sonar_file.filename or "Uploaded Sonar Scan",
+            output_dir=mission_folder
+        )
 
-    # Annotated mosaic
-    raw_img = np.array(Image.open(img_path).convert("L"), dtype=np.float32) / 255.0
-    annotated = SonarReporter.generate_annotated_mosaic(raw_img, report.detections)
-    annotated_path = os.path.join(mission_folder, "annotated_mosaic.png")
-    Image.fromarray(annotated).save(annotated_path)
+        # Annotated mosaic
+        raw_img = np.array(Image.open(img_path).convert("L"), dtype=np.float32) / 255.0
+        annotated = SonarReporter.generate_annotated_mosaic(raw_img, report.detections)
+        annotated_path = os.path.join(mission_folder, "annotated_mosaic.png")
+        Image.fromarray(annotated).save(annotated_path)
 
-    MISSION_CACHE[m_id] = report
-    IMAGE_CACHE[m_id] = {
-        "raw": raw_img,
-        "annotated": annotated
-    }
+        MISSION_CACHE[m_id] = report
+        IMAGE_CACHE[m_id] = {
+            "raw": raw_img,
+            "annotated": annotated
+        }
 
-    return {
-        "mission_id": m_id,
-        "report": report.model_dump()
-    }
+        return {
+            "mission_id": m_id,
+            "report": report.model_dump()
+        }
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=f"Pipeline processing error: {str(e)}")
+
 
 
 @app.get("/api/results/{mission_id}")
