@@ -56,6 +56,7 @@ os.makedirs(CROPS_DIR, exist_ok=True)
 # In-memory cache for recent mission reports
 MISSION_CACHE: Dict[str, MissionReport] = {}
 IMAGE_CACHE: Dict[str, Dict[str, np.ndarray]] = {}
+SAMPLE_CACHE: Dict[str, Dict[str, Any]] = {}
 
 
 class FeedbackRequest(BaseModel):
@@ -89,7 +90,12 @@ def generate_sample_mission(
 ):
     """
     Generates a realistic synthetic SSS survey mission and executes the detection pipeline.
+    Features instant $O(1)$ response caching to effortlessly handle heavy traffic spikes.
     """
+    cache_key = f"{scenario}_{int(conf_threshold)}"
+    if cache_key in SAMPLE_CACHE:
+        return SAMPLE_CACHE[cache_key]
+
     m_id = f"sample_{scenario}_{uuid.uuid4().hex[:6]}"
     mission_folder = os.path.join(STORAGE_DIR, m_id)
     os.makedirs(mission_folder, exist_ok=True)
@@ -165,11 +171,13 @@ def generate_sample_mission(
         "annotated": annotated
     }
 
-    return {
+    result_payload = {
         "mission_id": m_id,
         "report": report.model_dump(),
         "ground_truth_targets": len(gt_targets)
     }
+    SAMPLE_CACHE[cache_key] = result_payload
+    return result_payload
 
 
 @app.post("/api/upload")
