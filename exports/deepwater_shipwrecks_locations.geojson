@@ -1,0 +1,8963 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.834812,
+          18.922727
+        ]
+      },
+      "properties": {
+        "id": "20df3cfb",
+        "class": "container",
+        "confidence": 100.0,
+        "length_m": 10.8,
+        "width_m": 12.79,
+        "height_m": 1.32,
+        "area_m2": 138.21,
+        "channel": "port",
+        "ground_range_m": 42.44,
+        "status": "high_confidence",
+        "contrast_ratio": 4.24,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349561,
+          18.9219165
+        ]
+      },
+      "properties": {
+        "id": "63967c53",
+        "class": "container",
+        "confidence": 98.3,
+        "length_m": 11.73,
+        "width_m": 15.53,
+        "height_m": 2.15,
+        "area_m2": 182.13,
+        "channel": "starboard",
+        "ground_range_m": 33.02,
+        "status": "high_confidence",
+        "contrast_ratio": 3.67,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8347746,
+          18.9224819
+        ]
+      },
+      "properties": {
+        "id": "210b7509",
+        "class": "pipe_cylinder",
+        "confidence": 91.2,
+        "length_m": 20.06,
+        "width_m": 6.54,
+        "height_m": 1.19,
+        "area_m2": 131.27,
+        "channel": "port",
+        "ground_range_m": 25.3,
+        "status": "high_confidence",
+        "contrast_ratio": 3.65,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8355945,
+          18.9228723
+        ]
+      },
+      "properties": {
+        "id": "a244fa74",
+        "class": "shipwreck",
+        "confidence": 89.4,
+        "length_m": 18.52,
+        "width_m": 6.64,
+        "height_m": 9.96,
+        "area_m2": 122.98,
+        "channel": "port",
+        "ground_range_m": 0.0,
+        "status": "high_confidence",
+        "contrast_ratio": 2.64,
+        "marker_color": "#ff9500"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350118,
+          18.9219043
+        ]
+      },
+      "properties": {
+        "id": "b34a335b",
+        "class": "generic_debris",
+        "confidence": 88.7,
+        "length_m": 1.7,
+        "width_m": 8.89,
+        "height_m": 1.22,
+        "area_m2": 15.09,
+        "channel": "starboard",
+        "ground_range_m": 38.1,
+        "status": "high_confidence",
+        "contrast_ratio": 12.94,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8346427,
+          18.9222746
+        ]
+      },
+      "properties": {
+        "id": "3d596603",
+        "class": "container",
+        "confidence": 87.6,
+        "length_m": 9.26,
+        "width_m": 10.06,
+        "height_m": 1.76,
+        "area_m2": 93.14,
+        "channel": "port",
+        "ground_range_m": 18.47,
+        "status": "high_confidence",
+        "contrast_ratio": 3.14,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.83501,
+          18.9218913
+        ]
+      },
+      "properties": {
+        "id": "21edb127",
+        "class": "generic_debris",
+        "confidence": 84.5,
+        "length_m": 1.54,
+        "width_m": 8.59,
+        "height_m": 1.09,
+        "area_m2": 13.26,
+        "channel": "starboard",
+        "ground_range_m": 38.99,
+        "status": "high_confidence",
+        "contrast_ratio": 13.3,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350112,
+          18.921923
+        ]
+      },
+      "properties": {
+        "id": "7e0cf527",
+        "class": "generic_debris",
+        "confidence": 83.3,
+        "length_m": 1.7,
+        "width_m": 9.86,
+        "height_m": 1.9,
+        "area_m2": 16.74,
+        "channel": "starboard",
+        "ground_range_m": 36.58,
+        "status": "high_confidence",
+        "contrast_ratio": 3.58,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352967,
+          18.9223666
+        ]
+      },
+      "properties": {
+        "id": "bdfc57f6",
+        "class": "ghost_net",
+        "confidence": 76.8,
+        "length_m": 5.4,
+        "width_m": 5.76,
+        "height_m": 1.36,
+        "area_m2": 31.12,
+        "channel": "starboard",
+        "ground_range_m": 21.5,
+        "status": "high_confidence",
+        "contrast_ratio": 2.69,
+        "marker_color": "#ff3b30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349324,
+          18.9219944
+        ]
+      },
+      "properties": {
+        "id": "20c15bc3",
+        "class": "generic_debris",
+        "confidence": 74.3,
+        "length_m": 1.54,
+        "width_m": 3.03,
+        "height_m": 0.05,
+        "area_m2": 4.67,
+        "channel": "starboard",
+        "ground_range_m": 25.1,
+        "status": "high_confidence",
+        "contrast_ratio": 2.73,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350525,
+          18.9224175
+        ]
+      },
+      "properties": {
+        "id": "40cbfd7a",
+        "class": "pipe_cylinder",
+        "confidence": 72.2,
+        "length_m": 1.39,
+        "width_m": 3.91,
+        "height_m": 10.03,
+        "area_m2": 5.43,
+        "channel": "starboard",
+        "ground_range_m": 0.0,
+        "status": "high_confidence",
+        "contrast_ratio": 1.91,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835856,
+          18.9227491
+        ]
+      },
+      "properties": {
+        "id": "0213528e",
+        "class": "generic_debris",
+        "confidence": 71.9,
+        "length_m": 1.7,
+        "width_m": 1.95,
+        "height_m": 0.05,
+        "area_m2": 3.32,
+        "channel": "starboard",
+        "ground_range_m": 28.57,
+        "status": "high_confidence",
+        "contrast_ratio": 2.42,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8348965,
+          18.9222768
+        ]
+      },
+      "properties": {
+        "id": "92d2a824",
+        "class": "pipe_cylinder",
+        "confidence": 71.1,
+        "length_m": 1.39,
+        "width_m": 2.44,
+        "height_m": 10.06,
+        "area_m2": 3.39,
+        "channel": "port",
+        "ground_range_m": 0.0,
+        "status": "high_confidence",
+        "contrast_ratio": 1.95,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352737,
+          18.9226059
+        ]
+      },
+      "properties": {
+        "id": "5278c1bc",
+        "class": "pipe_cylinder",
+        "confidence": 70.3,
+        "length_m": 1.39,
+        "width_m": 2.25,
+        "height_m": 9.99,
+        "area_m2": 3.12,
+        "channel": "port",
+        "ground_range_m": 0.0,
+        "status": "high_confidence",
+        "contrast_ratio": 2.1,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351454,
+          18.9221217
+        ]
+      },
+      "properties": {
+        "id": "34fd87eb",
+        "class": "generic_debris",
+        "confidence": 69.6,
+        "length_m": 1.54,
+        "width_m": 1.66,
+        "height_m": 0.06,
+        "area_m2": 2.56,
+        "channel": "starboard",
+        "ground_range_m": 30.61,
+        "status": "high_confidence",
+        "contrast_ratio": 2.08,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353052,
+          18.9230804
+        ]
+      },
+      "properties": {
+        "id": "42d85e23",
+        "class": "generic_debris",
+        "confidence": 69.6,
+        "length_m": 1.54,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.26,
+        "channel": "port",
+        "ground_range_m": 37.42,
+        "status": "high_confidence",
+        "contrast_ratio": 2.21,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8359794,
+          18.922648
+        ]
+      },
+      "properties": {
+        "id": "b4dc122b",
+        "class": "generic_debris",
+        "confidence": 69.5,
+        "length_m": 1.54,
+        "width_m": 2.44,
+        "height_m": 0.05,
+        "area_m2": 3.77,
+        "channel": "starboard",
+        "ground_range_m": 45.64,
+        "status": "high_confidence",
+        "contrast_ratio": 1.75,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8355227,
+          18.9224353
+        ]
+      },
+      "properties": {
+        "id": "ea930c2b",
+        "class": "container",
+        "confidence": 69.1,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 31.56,
+        "status": "high_confidence",
+        "contrast_ratio": 1.8,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349354,
+          18.9223125
+        ]
+      },
+      "properties": {
+        "id": "c307ec7d",
+        "class": "pipe_cylinder",
+        "confidence": 68.6,
+        "length_m": 1.39,
+        "width_m": 3.32,
+        "height_m": 10.03,
+        "area_m2": 4.61,
+        "channel": "port",
+        "ground_range_m": 0.0,
+        "status": "high_confidence",
+        "contrast_ratio": 1.66,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352865,
+          18.922136
+        ]
+      },
+      "properties": {
+        "id": "862c4d91",
+        "class": "generic_debris",
+        "confidence": 68.4,
+        "length_m": 1.54,
+        "width_m": 1.17,
+        "height_m": 0.05,
+        "area_m2": 1.81,
+        "channel": "starboard",
+        "ground_range_m": 39.66,
+        "status": "high_confidence",
+        "contrast_ratio": 2.07,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8344106,
+          18.9223947
+        ]
+      },
+      "properties": {
+        "id": "ace7db81",
+        "class": "generic_debris",
+        "confidence": 68.3,
+        "length_m": 1.54,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 1.96,
+        "channel": "port",
+        "ground_range_m": 45.13,
+        "status": "high_confidence",
+        "contrast_ratio": 1.72,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351652,
+          18.9227782
+        ]
+      },
+      "properties": {
+        "id": "db410d2a",
+        "class": "generic_debris",
+        "confidence": 68.3,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.09,
+        "area_m2": 2.86,
+        "channel": "port",
+        "ground_range_m": 21.91,
+        "status": "high_confidence",
+        "contrast_ratio": 1.87,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353847,
+          18.9229174
+        ]
+      },
+      "properties": {
+        "id": "d14c2193",
+        "class": "generic_debris",
+        "confidence": 68.3,
+        "length_m": 1.54,
+        "width_m": 1.95,
+        "height_m": 0.16,
+        "area_m2": 3.01,
+        "channel": "port",
+        "ground_range_m": 18.25,
+        "status": "high_confidence",
+        "contrast_ratio": 1.9,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352918,
+          18.922083
+        ]
+      },
+      "properties": {
+        "id": "d9011a8b",
+        "class": "generic_debris",
+        "confidence": 68.2,
+        "length_m": 1.54,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 2.56,
+        "channel": "starboard",
+        "ground_range_m": 44.34,
+        "status": "high_confidence",
+        "contrast_ratio": 1.77,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357168,
+          18.9226625
+        ]
+      },
+      "properties": {
+        "id": "c6b436b9",
+        "class": "generic_debris",
+        "confidence": 68.2,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 26.05,
+        "status": "high_confidence",
+        "contrast_ratio": 1.8,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353627,
+          18.922228
+        ]
+      },
+      "properties": {
+        "id": "69bf2f9e",
+        "class": "generic_debris",
+        "confidence": 68.1,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.05,
+        "area_m2": 2.86,
+        "channel": "starboard",
+        "ground_range_m": 37.59,
+        "status": "high_confidence",
+        "contrast_ratio": 1.93,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357612,
+          18.9226879
+        ]
+      },
+      "properties": {
+        "id": "6798616e",
+        "class": "generic_debris",
+        "confidence": 68.1,
+        "length_m": 1.54,
+        "width_m": 1.95,
+        "height_m": 0.18,
+        "area_m2": 3.01,
+        "channel": "starboard",
+        "ground_range_m": 26.98,
+        "status": "high_confidence",
+        "contrast_ratio": 1.85,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8345303,
+          18.9223146
+        ]
+      },
+      "properties": {
+        "id": "c24516ab",
+        "class": "generic_debris",
+        "confidence": 68.0,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "port",
+        "ground_range_m": 29.94,
+        "status": "high_confidence",
+        "contrast_ratio": 1.77,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352935,
+          18.9226225
+        ]
+      },
+      "properties": {
+        "id": "d77ae341",
+        "class": "generic_debris",
+        "confidence": 68.0,
+        "length_m": 1.7,
+        "width_m": 2.93,
+        "height_m": 10.1,
+        "area_m2": 4.97,
+        "channel": "starboard",
+        "ground_range_m": 0.0,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352181,
+          18.9230597
+        ]
+      },
+      "properties": {
+        "id": "45f9898a",
+        "class": "generic_debris",
+        "confidence": 67.7,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "port",
+        "ground_range_m": 41.68,
+        "status": "high_confidence",
+        "contrast_ratio": 1.64,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8346176,
+          18.9220167
+        ]
+      },
+      "properties": {
+        "id": "d7f1cd0e",
+        "class": "pipe_cylinder",
+        "confidence": 67.6,
+        "length_m": 1.39,
+        "width_m": 2.54,
+        "height_m": 10.08,
+        "area_m2": 3.53,
+        "channel": "port",
+        "ground_range_m": 0.0,
+        "status": "high_confidence",
+        "contrast_ratio": 1.67,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8359621,
+          18.9226499
+        ]
+      },
+      "properties": {
+        "id": "f724da36",
+        "class": "generic_debris",
+        "confidence": 67.6,
+        "length_m": 1.7,
+        "width_m": 1.86,
+        "height_m": 0.05,
+        "area_m2": 3.15,
+        "channel": "starboard",
+        "ground_range_m": 44.24,
+        "status": "high_confidence",
+        "contrast_ratio": 1.74,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358196,
+          18.9226533
+        ]
+      },
+      "properties": {
+        "id": "2a8d5484",
+        "class": "pipe_cylinder",
+        "confidence": 67.5,
+        "length_m": 1.54,
+        "width_m": 2.34,
+        "height_m": 0.06,
+        "area_m2": 3.62,
+        "channel": "starboard",
+        "ground_range_m": 33.92,
+        "status": "high_confidence",
+        "contrast_ratio": 1.76,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8343715,
+          18.9223443
+        ]
+      },
+      "properties": {
+        "id": "584aabf7",
+        "class": "container",
+        "confidence": 67.4,
+        "length_m": 1.54,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 1.96,
+        "channel": "port",
+        "ground_range_m": 44.06,
+        "status": "high_confidence",
+        "contrast_ratio": 1.5,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351146,
+          18.9218927
+        ]
+      },
+      "properties": {
+        "id": "8e58039f",
+        "class": "generic_debris",
+        "confidence": 67.4,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 46.61,
+        "status": "high_confidence",
+        "contrast_ratio": 1.54,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8355234,
+          18.9224285
+        ]
+      },
+      "properties": {
+        "id": "1a5b7978",
+        "class": "generic_debris",
+        "confidence": 67.4,
+        "length_m": 1.85,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.89,
+        "channel": "starboard",
+        "ground_range_m": 32.17,
+        "status": "high_confidence",
+        "contrast_ratio": 1.76,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358145,
+          18.9226588
+        ]
+      },
+      "properties": {
+        "id": "19a96551",
+        "class": "generic_debris",
+        "confidence": 67.4,
+        "length_m": 1.7,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.98,
+        "channel": "starboard",
+        "ground_range_m": 33.1,
+        "status": "high_confidence",
+        "contrast_ratio": 1.87,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8359177,
+          18.9227029
+        ]
+      },
+      "properties": {
+        "id": "ed6ab983",
+        "class": "generic_debris",
+        "confidence": 67.4,
+        "length_m": 1.7,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.98,
+        "channel": "starboard",
+        "ground_range_m": 36.75,
+        "status": "high_confidence",
+        "contrast_ratio": 1.56,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352979,
+          18.9223123
+        ]
+      },
+      "properties": {
+        "id": "b8277b6c",
+        "class": "generic_debris",
+        "confidence": 67.3,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 26.06,
+        "status": "high_confidence",
+        "contrast_ratio": 1.92,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352763,
+          18.9222466
+        ]
+      },
+      "properties": {
+        "id": "832c078d",
+        "class": "generic_debris",
+        "confidence": 67.3,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.05,
+        "area_m2": 2.86,
+        "channel": "starboard",
+        "ground_range_m": 29.94,
+        "status": "high_confidence",
+        "contrast_ratio": 1.79,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356405,
+          18.922533
+        ]
+      },
+      "properties": {
+        "id": "f5c6827b",
+        "class": "generic_debris",
+        "confidence": 67.3,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 31.64,
+        "status": "high_confidence",
+        "contrast_ratio": 1.65,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354706,
+          18.9222456
+        ]
+      },
+      "properties": {
+        "id": "5ee905ec",
+        "class": "generic_debris",
+        "confidence": 67.3,
+        "length_m": 1.54,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 1.96,
+        "channel": "starboard",
+        "ground_range_m": 43.73,
+        "status": "high_confidence",
+        "contrast_ratio": 2.08,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356988,
+          18.9224914
+        ]
+      },
+      "properties": {
+        "id": "45e784e6",
+        "class": "generic_debris",
+        "confidence": 67.3,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 39.16,
+        "status": "high_confidence",
+        "contrast_ratio": 1.72,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357616,
+          18.9225855
+        ]
+      },
+      "properties": {
+        "id": "b0fb5792",
+        "class": "generic_debris",
+        "confidence": 67.3,
+        "length_m": 1.85,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 3.07,
+        "channel": "starboard",
+        "ground_range_m": 35.6,
+        "status": "high_confidence",
+        "contrast_ratio": 1.67,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835407,
+          18.9231021
+        ]
+      },
+      "properties": {
+        "id": "abf308f2",
+        "class": "generic_debris",
+        "confidence": 67.3,
+        "length_m": 1.54,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 2.56,
+        "channel": "port",
+        "ground_range_m": 32.21,
+        "status": "high_confidence",
+        "contrast_ratio": 1.72,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356725,
+          18.9224109
+        ]
+      },
+      "properties": {
+        "id": "640240e8",
+        "class": "generic_debris",
+        "confidence": 67.3,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 44.0,
+        "status": "high_confidence",
+        "contrast_ratio": 1.56,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352796,
+          18.9231602
+        ]
+      },
+      "properties": {
+        "id": "94b444ee",
+        "class": "generic_debris",
+        "confidence": 67.2,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "port",
+        "ground_range_m": 45.89,
+        "status": "high_confidence",
+        "contrast_ratio": 1.69,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352202,
+          18.9223376
+        ]
+      },
+      "properties": {
+        "id": "98933bc2",
+        "class": "generic_debris",
+        "confidence": 67.1,
+        "length_m": 1.54,
+        "width_m": 2.54,
+        "height_m": 0.16,
+        "area_m2": 3.92,
+        "channel": "starboard",
+        "ground_range_m": 18.48,
+        "status": "high_confidence",
+        "contrast_ratio": 1.55,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351858,
+          18.9220462
+        ]
+      },
+      "properties": {
+        "id": "b8977524",
+        "class": "generic_debris",
+        "confidence": 67.1,
+        "length_m": 1.54,
+        "width_m": 1.37,
+        "height_m": 0.05,
+        "area_m2": 2.11,
+        "channel": "starboard",
+        "ground_range_m": 39.59,
+        "status": "high_confidence",
+        "contrast_ratio": 1.55,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353658,
+          18.9230483
+        ]
+      },
+      "properties": {
+        "id": "e78f2ea4",
+        "class": "generic_debris",
+        "confidence": 67.1,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "port",
+        "ground_range_m": 30.55,
+        "status": "high_confidence",
+        "contrast_ratio": 1.79,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358886,
+          18.9226479
+        ]
+      },
+      "properties": {
+        "id": "9c2ee3ca",
+        "class": "generic_debris",
+        "confidence": 67.1,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.07,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 39.19,
+        "status": "high_confidence",
+        "contrast_ratio": 1.63,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352982,
+          18.9222853
+        ]
+      },
+      "properties": {
+        "id": "9c655089",
+        "class": "generic_debris",
+        "confidence": 67.0,
+        "length_m": 1.7,
+        "width_m": 2.25,
+        "height_m": 0.05,
+        "area_m2": 3.81,
+        "channel": "starboard",
+        "ground_range_m": 28.32,
+        "status": "high_confidence",
+        "contrast_ratio": 1.59,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8355289,
+          18.9224315
+        ]
+      },
+      "properties": {
+        "id": "457432b6",
+        "class": "generic_debris",
+        "confidence": 67.0,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 32.3,
+        "status": "high_confidence",
+        "contrast_ratio": 1.72,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358291,
+          18.9226902
+        ]
+      },
+      "properties": {
+        "id": "2985cd1c",
+        "class": "container",
+        "confidence": 67.0,
+        "length_m": 1.23,
+        "width_m": 1.86,
+        "height_m": 0.06,
+        "area_m2": 2.29,
+        "channel": "starboard",
+        "ground_range_m": 31.5,
+        "status": "high_confidence",
+        "contrast_ratio": 1.66,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8348879,
+          18.9217408
+        ]
+      },
+      "properties": {
+        "id": "64d00fd5",
+        "class": "container",
+        "confidence": 66.9,
+        "length_m": 1.54,
+        "width_m": 1.37,
+        "height_m": 0.05,
+        "area_m2": 2.11,
+        "channel": "starboard",
+        "ground_range_m": 41.8,
+        "status": "high_confidence",
+        "contrast_ratio": 1.64,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351904,
+          18.9230195
+        ]
+      },
+      "properties": {
+        "id": "73a9b59b",
+        "class": "generic_debris",
+        "confidence": 66.9,
+        "length_m": 1.7,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.98,
+        "channel": "port",
+        "ground_range_m": 40.26,
+        "status": "high_confidence",
+        "contrast_ratio": 1.64,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8346377,
+          18.9225397
+        ]
+      },
+      "properties": {
+        "id": "782daec4",
+        "class": "generic_debris",
+        "confidence": 66.8,
+        "length_m": 1.54,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 2.56,
+        "channel": "port",
+        "ground_range_m": 39.93,
+        "status": "high_confidence",
+        "contrast_ratio": 1.63,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352509,
+          18.9222178
+        ]
+      },
+      "properties": {
+        "id": "872f9c37",
+        "class": "generic_debris",
+        "confidence": 66.8,
+        "length_m": 1.7,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.49,
+        "channel": "starboard",
+        "ground_range_m": 30.47,
+        "status": "high_confidence",
+        "contrast_ratio": 1.93,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351638,
+          18.9219769
+        ]
+      },
+      "properties": {
+        "id": "f6d0f1a0",
+        "class": "generic_debris",
+        "confidence": 66.8,
+        "length_m": 1.54,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.26,
+        "channel": "starboard",
+        "ground_range_m": 43.53,
+        "status": "high_confidence",
+        "contrast_ratio": 1.57,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835598,
+          18.9224713
+        ]
+      },
+      "properties": {
+        "id": "76fc9f13",
+        "class": "generic_debris",
+        "confidence": 66.8,
+        "length_m": 1.54,
+        "width_m": 1.95,
+        "height_m": 0.12,
+        "area_m2": 3.01,
+        "channel": "starboard",
+        "ground_range_m": 33.78,
+        "status": "high_confidence",
+        "contrast_ratio": 1.51,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8359184,
+          18.9227192
+        ]
+      },
+      "properties": {
+        "id": "d0178653",
+        "class": "generic_debris",
+        "confidence": 66.8,
+        "length_m": 1.7,
+        "width_m": 1.86,
+        "height_m": 0.05,
+        "area_m2": 3.15,
+        "channel": "starboard",
+        "ground_range_m": 35.47,
+        "status": "high_confidence",
+        "contrast_ratio": 1.64,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351433,
+          18.9221414
+        ]
+      },
+      "properties": {
+        "id": "9a234bbe",
+        "class": "generic_debris",
+        "confidence": 66.7,
+        "length_m": 1.54,
+        "width_m": 1.95,
+        "height_m": 0.05,
+        "area_m2": 3.01,
+        "channel": "starboard",
+        "ground_range_m": 28.87,
+        "status": "high_confidence",
+        "contrast_ratio": 1.63,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353756,
+          18.9221362
+        ]
+      },
+      "properties": {
+        "id": "9250666a",
+        "class": "pipe_cylinder",
+        "confidence": 66.7,
+        "length_m": 1.7,
+        "width_m": 2.05,
+        "height_m": 0.05,
+        "area_m2": 3.48,
+        "channel": "starboard",
+        "ground_range_m": 46.04,
+        "status": "high_confidence",
+        "contrast_ratio": 1.57,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350713,
+          18.9221571
+        ]
+      },
+      "properties": {
+        "id": "080d12c7",
+        "class": "generic_debris",
+        "confidence": 66.6,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.09,
+        "area_m2": 2.86,
+        "channel": "starboard",
+        "ground_range_m": 22.35,
+        "status": "high_confidence",
+        "contrast_ratio": 1.79,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351364,
+          18.9219773
+        ]
+      },
+      "properties": {
+        "id": "2c14c79a",
+        "class": "generic_debris",
+        "confidence": 66.5,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 41.51,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350782,
+          18.9225332
+        ]
+      },
+      "properties": {
+        "id": "99d26c74",
+        "class": "generic_debris",
+        "confidence": 66.5,
+        "length_m": 1.54,
+        "width_m": 4.0,
+        "height_m": 1.43,
+        "area_m2": 6.18,
+        "channel": "port",
+        "ground_range_m": 7.65,
+        "status": "high_confidence",
+        "contrast_ratio": 2.16,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835349,
+          18.9222209
+        ]
+      },
+      "properties": {
+        "id": "4aa30b38",
+        "class": "generic_debris",
+        "confidence": 66.5,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.05,
+        "area_m2": 2.86,
+        "channel": "starboard",
+        "ground_range_m": 37.2,
+        "status": "high_confidence",
+        "contrast_ratio": 1.57,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356485,
+          18.9227064
+        ]
+      },
+      "properties": {
+        "id": "5a6c2a33",
+        "class": "generic_debris",
+        "confidence": 66.5,
+        "length_m": 1.54,
+        "width_m": 2.15,
+        "height_m": 0.06,
+        "area_m2": 3.32,
+        "channel": "starboard",
+        "ground_range_m": 17.65,
+        "status": "high_confidence",
+        "contrast_ratio": 1.55,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351458,
+          18.9229316
+        ]
+      },
+      "properties": {
+        "id": "743267ec",
+        "class": "generic_debris",
+        "confidence": 66.5,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "port",
+        "ground_range_m": 36.05,
+        "status": "high_confidence",
+        "contrast_ratio": 1.65,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8359653,
+          18.9226817
+        ]
+      },
+      "properties": {
+        "id": "27cc1ed0",
+        "class": "generic_debris",
+        "confidence": 66.5,
+        "length_m": 1.7,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.65,
+        "channel": "starboard",
+        "ground_range_m": 41.88,
+        "status": "high_confidence",
+        "contrast_ratio": 1.84,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8347036,
+          18.9225084
+        ]
+      },
+      "properties": {
+        "id": "40b7a25a",
+        "class": "generic_debris",
+        "confidence": 66.4,
+        "length_m": 1.7,
+        "width_m": 4.49,
+        "height_m": 0.06,
+        "area_m2": 7.63,
+        "channel": "port",
+        "ground_range_m": 32.61,
+        "status": "high_confidence",
+        "contrast_ratio": 1.82,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351669,
+          18.9220097
+        ]
+      },
+      "properties": {
+        "id": "ae026ed3",
+        "class": "generic_debris",
+        "confidence": 66.4,
+        "length_m": 1.85,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 2.35,
+        "channel": "starboard",
+        "ground_range_m": 41.12,
+        "status": "high_confidence",
+        "contrast_ratio": 1.6,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353769,
+          18.922139
+        ]
+      },
+      "properties": {
+        "id": "1dd1cfa2",
+        "class": "generic_debris",
+        "confidence": 66.4,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 45.89,
+        "status": "high_confidence",
+        "contrast_ratio": 1.53,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356669,
+          18.9224043
+        ]
+      },
+      "properties": {
+        "id": "7379c973",
+        "class": "generic_debris",
+        "confidence": 66.4,
+        "length_m": 1.7,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.49,
+        "channel": "starboard",
+        "ground_range_m": 44.16,
+        "status": "high_confidence",
+        "contrast_ratio": 1.63,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357646,
+          18.9225901
+        ]
+      },
+      "properties": {
+        "id": "fb431ace",
+        "class": "generic_debris",
+        "confidence": 66.4,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 35.43,
+        "status": "high_confidence",
+        "contrast_ratio": 1.63,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357857,
+          18.9226069
+        ]
+      },
+      "properties": {
+        "id": "677343bb",
+        "class": "generic_debris",
+        "confidence": 66.4,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 35.46,
+        "status": "high_confidence",
+        "contrast_ratio": 1.64,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352717,
+          18.9222557
+        ]
+      },
+      "properties": {
+        "id": "5293f105",
+        "class": "generic_debris",
+        "confidence": 66.3,
+        "length_m": 1.7,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.49,
+        "channel": "starboard",
+        "ground_range_m": 28.86,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8359618,
+          18.9226225
+        ]
+      },
+      "properties": {
+        "id": "a1537ebf",
+        "class": "generic_debris",
+        "confidence": 66.3,
+        "length_m": 1.54,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 2.56,
+        "channel": "starboard",
+        "ground_range_m": 46.45,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8348783,
+          18.9217577
+        ]
+      },
+      "properties": {
+        "id": "1d372d41",
+        "class": "ghost_net",
+        "confidence": 66.2,
+        "length_m": 1.85,
+        "width_m": 1.37,
+        "height_m": 0.05,
+        "area_m2": 2.53,
+        "channel": "starboard",
+        "ground_range_m": 39.76,
+        "status": "high_confidence",
+        "contrast_ratio": 2.0,
+        "marker_color": "#ff3b30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349328,
+          18.9217801
+        ]
+      },
+      "properties": {
+        "id": "ca8eb3ff",
+        "class": "generic_debris",
+        "confidence": 66.2,
+        "length_m": 1.54,
+        "width_m": 1.07,
+        "height_m": 0.05,
+        "area_m2": 1.66,
+        "channel": "starboard",
+        "ground_range_m": 42.05,
+        "status": "high_confidence",
+        "contrast_ratio": 1.69,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350325,
+          18.9219383
+        ]
+      },
+      "properties": {
+        "id": "f0a540c2",
+        "class": "container",
+        "confidence": 66.2,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 36.94,
+        "status": "high_confidence",
+        "contrast_ratio": 1.68,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352772,
+          18.92205
+        ]
+      },
+      "properties": {
+        "id": "e9f95ff1",
+        "class": "generic_debris",
+        "confidence": 66.2,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.05,
+        "area_m2": 2.86,
+        "channel": "starboard",
+        "ground_range_m": 45.93,
+        "status": "high_confidence",
+        "contrast_ratio": 1.53,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354847,
+          18.9223545
+        ]
+      },
+      "properties": {
+        "id": "95cd169f",
+        "class": "generic_debris",
+        "confidence": 66.2,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 35.65,
+        "status": "high_confidence",
+        "contrast_ratio": 1.7,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356525,
+          18.9223976
+        ]
+      },
+      "properties": {
+        "id": "81ba9d9d",
+        "class": "container",
+        "confidence": 66.2,
+        "length_m": 1.54,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.26,
+        "channel": "starboard",
+        "ground_range_m": 43.74,
+        "status": "high_confidence",
+        "contrast_ratio": 1.53,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358837,
+          18.9226407
+        ]
+      },
+      "properties": {
+        "id": "6a8c8ec2",
+        "class": "generic_debris",
+        "confidence": 66.2,
+        "length_m": 1.54,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 2.56,
+        "channel": "starboard",
+        "ground_range_m": 39.44,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357173,
+          18.9226518
+        ]
+      },
+      "properties": {
+        "id": "462a8683",
+        "class": "generic_debris",
+        "confidence": 66.2,
+        "length_m": 1.54,
+        "width_m": 2.05,
+        "height_m": 0.05,
+        "area_m2": 3.17,
+        "channel": "starboard",
+        "ground_range_m": 26.98,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8348392,
+          18.9217985
+        ]
+      },
+      "properties": {
+        "id": "bc81db4e",
+        "class": "generic_debris",
+        "confidence": 66.1,
+        "length_m": 1.7,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 2.16,
+        "channel": "starboard",
+        "ground_range_m": 33.64,
+        "status": "high_confidence",
+        "contrast_ratio": 1.83,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351291,
+          18.9221116
+        ]
+      },
+      "properties": {
+        "id": "67383731",
+        "class": "generic_debris",
+        "confidence": 66.1,
+        "length_m": 1.7,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.65,
+        "channel": "starboard",
+        "ground_range_m": 30.23,
+        "status": "high_confidence",
+        "contrast_ratio": 1.74,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835338,
+          18.9222149
+        ]
+      },
+      "properties": {
+        "id": "4855dd2b",
+        "class": "generic_debris",
+        "confidence": 66.1,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.05,
+        "area_m2": 2.86,
+        "channel": "starboard",
+        "ground_range_m": 36.91,
+        "status": "high_confidence",
+        "contrast_ratio": 1.53,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.83566,
+          18.9223768
+        ]
+      },
+      "properties": {
+        "id": "315acd98",
+        "class": "generic_debris",
+        "confidence": 66.1,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 45.99,
+        "status": "high_confidence",
+        "contrast_ratio": 1.56,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350731,
+          18.9229618
+        ]
+      },
+      "properties": {
+        "id": "0f73b72c",
+        "class": "generic_debris",
+        "confidence": 66.1,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.09,
+        "area_m2": 2.86,
+        "channel": "port",
+        "ground_range_m": 43.62,
+        "status": "high_confidence",
+        "contrast_ratio": 1.64,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357101,
+          18.9224365
+        ]
+      },
+      "properties": {
+        "id": "f0fd0ced",
+        "class": "pipe_cylinder",
+        "confidence": 66.0,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 44.51,
+        "status": "high_confidence",
+        "contrast_ratio": 1.64,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356422,
+          18.9224742
+        ]
+      },
+      "properties": {
+        "id": "e27aa952",
+        "class": "generic_debris",
+        "confidence": 66.0,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 36.63,
+        "status": "high_confidence",
+        "contrast_ratio": 1.6,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350072,
+          18.9218002
+        ]
+      },
+      "properties": {
+        "id": "2408988e",
+        "class": "generic_debris",
+        "confidence": 65.9,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 46.01,
+        "status": "high_confidence",
+        "contrast_ratio": 1.52,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351049,
+          18.9218887
+        ]
+      },
+      "properties": {
+        "id": "8cd4659e",
+        "class": "generic_debris",
+        "confidence": 65.9,
+        "length_m": 1.54,
+        "width_m": 1.37,
+        "height_m": 0.05,
+        "area_m2": 2.11,
+        "channel": "starboard",
+        "ground_range_m": 46.22,
+        "status": "high_confidence",
+        "contrast_ratio": 1.6,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351204,
+          18.9229839
+        ]
+      },
+      "properties": {
+        "id": "b3a2ef54",
+        "class": "generic_debris",
+        "confidence": 65.9,
+        "length_m": 1.7,
+        "width_m": 1.37,
+        "height_m": 0.05,
+        "area_m2": 2.32,
+        "channel": "port",
+        "ground_range_m": 42.19,
+        "status": "high_confidence",
+        "contrast_ratio": 1.63,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354355,
+          18.9222594
+        ]
+      },
+      "properties": {
+        "id": "f76d106f",
+        "class": "generic_debris",
+        "confidence": 65.9,
+        "length_m": 1.7,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.49,
+        "channel": "starboard",
+        "ground_range_m": 40.12,
+        "status": "high_confidence",
+        "contrast_ratio": 1.51,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8347874,
+          18.9218602
+        ]
+      },
+      "properties": {
+        "id": "09e2ba62",
+        "class": "generic_debris",
+        "confidence": 65.8,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 24.94,
+        "status": "high_confidence",
+        "contrast_ratio": 1.79,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356536,
+          18.9224715
+        ]
+      },
+      "properties": {
+        "id": "d525782a",
+        "class": "generic_debris",
+        "confidence": 65.8,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.08,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 37.65,
+        "status": "high_confidence",
+        "contrast_ratio": 1.6,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358218,
+          18.9225379
+        ]
+      },
+      "properties": {
+        "id": "f0c5e17e",
+        "class": "generic_debris",
+        "confidence": 65.8,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.05,
+        "area_m2": 2.86,
+        "channel": "starboard",
+        "ground_range_m": 43.75,
+        "status": "high_confidence",
+        "contrast_ratio": 1.6,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350123,
+          18.9219998
+        ]
+      },
+      "properties": {
+        "id": "592d7d23",
+        "class": "generic_debris",
+        "confidence": 65.7,
+        "length_m": 1.54,
+        "width_m": 1.46,
+        "height_m": 0.06,
+        "area_m2": 2.26,
+        "channel": "starboard",
+        "ground_range_m": 30.57,
+        "status": "high_confidence",
+        "contrast_ratio": 1.67,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349912,
+          18.9229306
+        ]
+      },
+      "properties": {
+        "id": "967d5f24",
+        "class": "generic_debris",
+        "confidence": 65.7,
+        "length_m": 1.7,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 2.16,
+        "channel": "port",
+        "ground_range_m": 46.74,
+        "status": "high_confidence",
+        "contrast_ratio": 1.7,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353729,
+          18.9221348
+        ]
+      },
+      "properties": {
+        "id": "259cde29",
+        "class": "generic_debris",
+        "confidence": 65.7,
+        "length_m": 1.39,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 1.76,
+        "channel": "starboard",
+        "ground_range_m": 45.95,
+        "status": "high_confidence",
+        "contrast_ratio": 1.73,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354753,
+          18.9223013
+        ]
+      },
+      "properties": {
+        "id": "d7a98a01",
+        "class": "generic_debris",
+        "confidence": 65.7,
+        "length_m": 1.7,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 2.82,
+        "channel": "starboard",
+        "ground_range_m": 39.43,
+        "status": "high_confidence",
+        "contrast_ratio": 1.52,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354491,
+          18.9230354
+        ]
+      },
+      "properties": {
+        "id": "ecd41631",
+        "class": "generic_debris",
+        "confidence": 65.7,
+        "length_m": 1.7,
+        "width_m": 1.76,
+        "height_m": 0.08,
+        "area_m2": 2.98,
+        "channel": "port",
+        "ground_range_m": 23.72,
+        "status": "high_confidence",
+        "contrast_ratio": 1.65,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356252,
+          18.9224613
+        ]
+      },
+      "properties": {
+        "id": "03d81bad",
+        "class": "generic_debris",
+        "confidence": 65.7,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.05,
+        "area_m2": 2.86,
+        "channel": "starboard",
+        "ground_range_m": 36.5,
+        "status": "high_confidence",
+        "contrast_ratio": 1.55,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349568,
+          18.9217204
+        ]
+      },
+      "properties": {
+        "id": "b8265ad2",
+        "class": "generic_debris",
+        "confidence": 65.6,
+        "length_m": 1.7,
+        "width_m": 0.88,
+        "height_m": 0.05,
+        "area_m2": 1.49,
+        "channel": "starboard",
+        "ground_range_m": 48.54,
+        "status": "high_confidence",
+        "contrast_ratio": 1.53,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.83505,
+          18.9219215
+        ]
+      },
+      "properties": {
+        "id": "4278b4e7",
+        "class": "generic_debris",
+        "confidence": 65.6,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 39.56,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352849,
+          18.9220772
+        ]
+      },
+      "properties": {
+        "id": "c482d588",
+        "class": "generic_debris",
+        "confidence": 65.6,
+        "length_m": 1.7,
+        "width_m": 1.17,
+        "height_m": 0.05,
+        "area_m2": 1.99,
+        "channel": "starboard",
+        "ground_range_m": 44.3,
+        "status": "high_confidence",
+        "contrast_ratio": 1.54,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353779,
+          18.9221518
+        ]
+      },
+      "properties": {
+        "id": "76f33caf",
+        "class": "generic_debris",
+        "confidence": 65.6,
+        "length_m": 1.7,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 2.16,
+        "channel": "starboard",
+        "ground_range_m": 44.93,
+        "status": "high_confidence",
+        "contrast_ratio": 1.55,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356145,
+          18.9224118
+        ]
+      },
+      "properties": {
+        "id": "0080817c",
+        "class": "generic_debris",
+        "confidence": 65.6,
+        "length_m": 1.85,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 3.07,
+        "channel": "starboard",
+        "ground_range_m": 39.91,
+        "status": "high_confidence",
+        "contrast_ratio": 1.74,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835765,
+          18.9224638
+        ]
+      },
+      "properties": {
+        "id": "c5879a44",
+        "class": "generic_debris",
+        "confidence": 65.6,
+        "length_m": 1.54,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.26,
+        "channel": "starboard",
+        "ground_range_m": 46.07,
+        "status": "high_confidence",
+        "contrast_ratio": 1.56,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8346797,
+          18.9226558
+        ]
+      },
+      "properties": {
+        "id": "41adddfa",
+        "class": "generic_debris",
+        "confidence": 65.5,
+        "length_m": 1.85,
+        "width_m": 1.17,
+        "height_m": 0.05,
+        "area_m2": 2.17,
+        "channel": "port",
+        "ground_range_m": 46.19,
+        "status": "high_confidence",
+        "contrast_ratio": 1.58,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356119,
+          18.9224301
+        ]
+      },
+      "properties": {
+        "id": "c35bab11",
+        "class": "ghost_net",
+        "confidence": 65.5,
+        "length_m": 1.85,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 3.07,
+        "channel": "starboard",
+        "ground_range_m": 38.2,
+        "status": "high_confidence",
+        "contrast_ratio": 1.66,
+        "marker_color": "#ff3b30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356601,
+          18.9224039
+        ]
+      },
+      "properties": {
+        "id": "e643b152",
+        "class": "generic_debris",
+        "confidence": 65.5,
+        "length_m": 2.01,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.94,
+        "channel": "starboard",
+        "ground_range_m": 43.72,
+        "status": "high_confidence",
+        "contrast_ratio": 1.65,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352664,
+          18.9222275
+        ]
+      },
+      "properties": {
+        "id": "a5861063",
+        "class": "generic_debris",
+        "confidence": 65.4,
+        "length_m": 1.54,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 1.96,
+        "channel": "starboard",
+        "ground_range_m": 30.8,
+        "status": "high_confidence",
+        "contrast_ratio": 1.73,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8343953,
+          18.9223928
+        ]
+      },
+      "properties": {
+        "id": "aef0e66c",
+        "class": "generic_debris",
+        "confidence": 65.3,
+        "length_m": 1.54,
+        "width_m": 1.37,
+        "height_m": 0.05,
+        "area_m2": 2.11,
+        "channel": "port",
+        "ground_range_m": 46.11,
+        "status": "high_confidence",
+        "contrast_ratio": 1.52,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349319,
+          18.9218354
+        ]
+      },
+      "properties": {
+        "id": "7d6b1a45",
+        "class": "ghost_net",
+        "confidence": 65.3,
+        "length_m": 1.85,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.89,
+        "channel": "starboard",
+        "ground_range_m": 37.64,
+        "status": "high_confidence",
+        "contrast_ratio": 1.72,
+        "marker_color": "#ff3b30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835383,
+          18.9221384
+        ]
+      },
+      "properties": {
+        "id": "f2969703",
+        "class": "ghost_net",
+        "confidence": 65.3,
+        "length_m": 2.31,
+        "width_m": 1.56,
+        "height_m": 0.06,
+        "area_m2": 3.62,
+        "channel": "starboard",
+        "ground_range_m": 46.4,
+        "status": "high_confidence",
+        "contrast_ratio": 1.53,
+        "marker_color": "#ff3b30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352609,
+          18.9231543
+        ]
+      },
+      "properties": {
+        "id": "03b87c2e",
+        "class": "generic_debris",
+        "confidence": 65.3,
+        "length_m": 1.7,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.98,
+        "channel": "port",
+        "ground_range_m": 46.69,
+        "status": "high_confidence",
+        "contrast_ratio": 1.51,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354285,
+          18.9222848
+        ]
+      },
+      "properties": {
+        "id": "e08834b7",
+        "class": "generic_debris",
+        "confidence": 65.3,
+        "length_m": 1.54,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 2.56,
+        "channel": "starboard",
+        "ground_range_m": 37.53,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349286,
+          18.921782
+        ]
+      },
+      "properties": {
+        "id": "197c4c9b",
+        "class": "generic_debris",
+        "confidence": 65.2,
+        "length_m": 1.7,
+        "width_m": 1.17,
+        "height_m": 0.05,
+        "area_m2": 1.99,
+        "channel": "starboard",
+        "ground_range_m": 41.59,
+        "status": "high_confidence",
+        "contrast_ratio": 1.75,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351533,
+          18.9219466
+        ]
+      },
+      "properties": {
+        "id": "8f1d51a7",
+        "class": "generic_debris",
+        "confidence": 65.2,
+        "length_m": 1.7,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.65,
+        "channel": "starboard",
+        "ground_range_m": 45.18,
+        "status": "high_confidence",
+        "contrast_ratio": 1.59,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354363,
+          18.9222405
+        ]
+      },
+      "properties": {
+        "id": "99ad6460",
+        "class": "generic_debris",
+        "confidence": 65.2,
+        "length_m": 1.85,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 2.35,
+        "channel": "starboard",
+        "ground_range_m": 41.73,
+        "status": "high_confidence",
+        "contrast_ratio": 1.65,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352011,
+          18.92206
+        ]
+      },
+      "properties": {
+        "id": "fa03ed2c",
+        "class": "ghost_net",
+        "confidence": 65.1,
+        "length_m": 1.85,
+        "width_m": 1.46,
+        "height_m": 0.07,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 39.62,
+        "status": "high_confidence",
+        "contrast_ratio": 1.54,
+        "marker_color": "#ff3b30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835158,
+          18.9219563
+        ]
+      },
+      "properties": {
+        "id": "76c4a62f",
+        "class": "pipe_cylinder",
+        "confidence": 65.1,
+        "length_m": 1.54,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 2.56,
+        "channel": "starboard",
+        "ground_range_m": 44.76,
+        "status": "high_confidence",
+        "contrast_ratio": 1.57,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349653,
+          18.9228733
+        ]
+      },
+      "properties": {
+        "id": "c85f0d3e",
+        "class": "generic_debris",
+        "confidence": 65.1,
+        "length_m": 1.54,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 1.96,
+        "channel": "port",
+        "ground_range_m": 43.76,
+        "status": "high_confidence",
+        "contrast_ratio": 1.55,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8347182,
+          18.9227192
+        ]
+      },
+      "properties": {
+        "id": "b703ecc3",
+        "class": "generic_debris",
+        "confidence": 65.0,
+        "length_m": 1.7,
+        "width_m": 0.88,
+        "height_m": 0.05,
+        "area_m2": 1.49,
+        "channel": "port",
+        "ground_range_m": 48.53,
+        "status": "high_confidence",
+        "contrast_ratio": 1.6,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354791,
+          18.9222972
+        ]
+      },
+      "properties": {
+        "id": "2dad0034",
+        "class": "generic_debris",
+        "confidence": 65.0,
+        "length_m": 1.54,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.26,
+        "channel": "starboard",
+        "ground_range_m": 40.04,
+        "status": "high_confidence",
+        "contrast_ratio": 1.53,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357135,
+          18.9225006
+        ]
+      },
+      "properties": {
+        "id": "7187914c",
+        "class": "generic_debris",
+        "confidence": 65.0,
+        "length_m": 1.7,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.49,
+        "channel": "starboard",
+        "ground_range_m": 39.42,
+        "status": "high_confidence",
+        "contrast_ratio": 1.6,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349181,
+          18.9217679
+        ]
+      },
+      "properties": {
+        "id": "78d6c1c2",
+        "class": "generic_debris",
+        "confidence": 64.9,
+        "length_m": 1.7,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 2.16,
+        "channel": "starboard",
+        "ground_range_m": 41.92,
+        "status": "high_confidence",
+        "contrast_ratio": 1.69,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8359249,
+          18.9225886
+        ]
+      },
+      "properties": {
+        "id": "58d88982",
+        "class": "generic_debris",
+        "confidence": 64.9,
+        "length_m": 1.23,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 1.81,
+        "channel": "starboard",
+        "ground_range_m": 46.64,
+        "status": "high_confidence",
+        "contrast_ratio": 1.57,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8348455,
+          18.9217993
+        ]
+      },
+      "properties": {
+        "id": "ba7f7177",
+        "class": "generic_debris",
+        "confidence": 64.8,
+        "length_m": 1.7,
+        "width_m": 1.27,
+        "height_m": 0.06,
+        "area_m2": 2.16,
+        "channel": "starboard",
+        "ground_range_m": 34.04,
+        "status": "high_confidence",
+        "contrast_ratio": 1.61,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352107,
+          18.9220759
+        ]
+      },
+      "properties": {
+        "id": "9b5c3a97",
+        "class": "generic_debris",
+        "confidence": 64.8,
+        "length_m": 1.54,
+        "width_m": 1.27,
+        "height_m": 0.05,
+        "area_m2": 1.96,
+        "channel": "starboard",
+        "ground_range_m": 39.03,
+        "status": "high_confidence",
+        "contrast_ratio": 1.54,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351882,
+          18.9220492
+        ]
+      },
+      "properties": {
+        "id": "11aa29a0",
+        "class": "ghost_net",
+        "confidence": 64.7,
+        "length_m": 1.85,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 3.07,
+        "channel": "starboard",
+        "ground_range_m": 39.54,
+        "status": "high_confidence",
+        "contrast_ratio": 1.58,
+        "marker_color": "#ff3b30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352645,
+          18.9222098
+        ]
+      },
+      "properties": {
+        "id": "ae56221f",
+        "class": "generic_debris",
+        "confidence": 64.7,
+        "length_m": 1.54,
+        "width_m": 1.37,
+        "height_m": 0.06,
+        "area_m2": 2.11,
+        "channel": "starboard",
+        "ground_range_m": 32.1,
+        "status": "high_confidence",
+        "contrast_ratio": 1.78,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835351,
+          18.9222001
+        ]
+      },
+      "properties": {
+        "id": "80202dd8",
+        "class": "generic_debris",
+        "confidence": 64.7,
+        "length_m": 1.54,
+        "width_m": 1.37,
+        "height_m": 0.05,
+        "area_m2": 2.11,
+        "channel": "starboard",
+        "ground_range_m": 39.05,
+        "status": "high_confidence",
+        "contrast_ratio": 1.55,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349858,
+          18.9218026
+        ]
+      },
+      "properties": {
+        "id": "e7e78e1e",
+        "class": "ghost_net",
+        "confidence": 64.7,
+        "length_m": 1.85,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 44.22,
+        "status": "high_confidence",
+        "contrast_ratio": 1.56,
+        "marker_color": "#ff3b30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352614,
+          18.9220859
+        ]
+      },
+      "properties": {
+        "id": "f7d2b24f",
+        "class": "pipe_cylinder",
+        "confidence": 64.7,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 41.89,
+        "status": "high_confidence",
+        "contrast_ratio": 1.56,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350771,
+          18.9229432
+        ]
+      },
+      "properties": {
+        "id": "d1800614",
+        "class": "generic_debris",
+        "confidence": 64.7,
+        "length_m": 1.7,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.98,
+        "channel": "port",
+        "ground_range_m": 41.79,
+        "status": "high_confidence",
+        "contrast_ratio": 1.58,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352682,
+          18.9226014
+        ]
+      },
+      "properties": {
+        "id": "9e2edd60",
+        "class": "generic_debris",
+        "confidence": 64.7,
+        "length_m": 1.54,
+        "width_m": 4.1,
+        "height_m": 9.93,
+        "area_m2": 6.33,
+        "channel": "starboard",
+        "ground_range_m": 0.0,
+        "status": "high_confidence",
+        "contrast_ratio": 1.82,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357246,
+          18.922652
+        ]
+      },
+      "properties": {
+        "id": "3a0a9c06",
+        "class": "generic_debris",
+        "confidence": 64.6,
+        "length_m": 1.85,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.89,
+        "channel": "starboard",
+        "ground_range_m": 27.46,
+        "status": "high_confidence",
+        "contrast_ratio": 1.53,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349145,
+          18.9217699
+        ]
+      },
+      "properties": {
+        "id": "b91db68e",
+        "class": "generic_debris",
+        "confidence": 64.5,
+        "length_m": 1.54,
+        "width_m": 1.17,
+        "height_m": 0.05,
+        "area_m2": 1.81,
+        "channel": "starboard",
+        "ground_range_m": 41.5,
+        "status": "high_confidence",
+        "contrast_ratio": 1.65,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350347,
+          18.9219112
+        ]
+      },
+      "properties": {
+        "id": "31cd8f9f",
+        "class": "generic_debris",
+        "confidence": 64.4,
+        "length_m": 1.7,
+        "width_m": 1.27,
+        "height_m": 0.31,
+        "area_m2": 2.16,
+        "channel": "starboard",
+        "ground_range_m": 39.24,
+        "status": "high_confidence",
+        "contrast_ratio": 2.87,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358459,
+          18.9225454
+        ]
+      },
+      "properties": {
+        "id": "35b7510b",
+        "class": "generic_debris",
+        "confidence": 64.4,
+        "length_m": 1.54,
+        "width_m": 2.15,
+        "height_m": 0.5,
+        "area_m2": 3.32,
+        "channel": "starboard",
+        "ground_range_m": 44.78,
+        "status": "high_confidence",
+        "contrast_ratio": 2.7,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351713,
+          18.922018
+        ]
+      },
+      "properties": {
+        "id": "d9c974f8",
+        "class": "pipe_cylinder",
+        "confidence": 64.3,
+        "length_m": 1.7,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.98,
+        "channel": "starboard",
+        "ground_range_m": 40.79,
+        "status": "high_confidence",
+        "contrast_ratio": 1.53,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353904,
+          18.9221991
+        ]
+      },
+      "properties": {
+        "id": "853aaeb5",
+        "class": "generic_debris",
+        "confidence": 64.3,
+        "length_m": 1.7,
+        "width_m": 1.46,
+        "height_m": 0.09,
+        "area_m2": 2.49,
+        "channel": "starboard",
+        "ground_range_m": 41.93,
+        "status": "high_confidence",
+        "contrast_ratio": 1.51,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8355996,
+          18.9222961
+        ]
+      },
+      "properties": {
+        "id": "34964e04",
+        "class": "generic_debris",
+        "confidence": 64.1,
+        "length_m": 1.54,
+        "width_m": 0.88,
+        "height_m": 0.05,
+        "area_m2": 1.36,
+        "channel": "starboard",
+        "ground_range_m": 48.52,
+        "status": "high_confidence",
+        "contrast_ratio": 1.59,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835213,
+          18.9221254
+        ]
+      },
+      "properties": {
+        "id": "895ef523",
+        "class": "ghost_net",
+        "confidence": 64.0,
+        "length_m": 1.85,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 3.07,
+        "channel": "starboard",
+        "ground_range_m": 35.2,
+        "status": "high_confidence",
+        "contrast_ratio": 1.5,
+        "marker_color": "#ff3b30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356523,
+          18.9227474
+        ]
+      },
+      "properties": {
+        "id": "f141730a",
+        "class": "generic_debris",
+        "confidence": 64.0,
+        "length_m": 1.7,
+        "width_m": 2.44,
+        "height_m": 0.13,
+        "area_m2": 4.14,
+        "channel": "starboard",
+        "ground_range_m": 14.47,
+        "status": "high_confidence",
+        "contrast_ratio": 2.03,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352186,
+          18.9219636
+        ]
+      },
+      "properties": {
+        "id": "7c5ad3bd",
+        "class": "generic_debris",
+        "confidence": 63.9,
+        "length_m": 1.85,
+        "width_m": 0.78,
+        "height_m": 0.05,
+        "area_m2": 1.45,
+        "channel": "starboard",
+        "ground_range_m": 48.59,
+        "status": "high_confidence",
+        "contrast_ratio": 1.56,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835041,
+          18.9219051
+        ]
+      },
+      "properties": {
+        "id": "7eb87a0f",
+        "class": "pipe_cylinder",
+        "confidence": 63.6,
+        "length_m": 1.54,
+        "width_m": 1.76,
+        "height_m": 0.39,
+        "area_m2": 2.71,
+        "channel": "starboard",
+        "ground_range_m": 40.2,
+        "status": "high_confidence",
+        "contrast_ratio": 2.35,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.835311,
+          18.9223292
+        ]
+      },
+      "properties": {
+        "id": "ef137e46",
+        "class": "generic_debris",
+        "confidence": 62.9,
+        "length_m": 1.54,
+        "width_m": 3.32,
+        "height_m": 0.08,
+        "area_m2": 5.12,
+        "channel": "starboard",
+        "ground_range_m": 25.59,
+        "status": "high_confidence",
+        "contrast_ratio": 1.86,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353999,
+          18.9225946
+        ]
+      },
+      "properties": {
+        "id": "8c9b537f",
+        "class": "generic_debris",
+        "confidence": 62.8,
+        "length_m": 1.54,
+        "width_m": 3.32,
+        "height_m": 0.66,
+        "area_m2": 5.12,
+        "channel": "starboard",
+        "ground_range_m": 9.74,
+        "status": "high_confidence",
+        "contrast_ratio": 1.81,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8348896,
+          18.9217362
+        ]
+      },
+      "properties": {
+        "id": "f7624e5e",
+        "class": "generic_debris",
+        "confidence": 62.6,
+        "length_m": 1.08,
+        "width_m": 1.17,
+        "height_m": 0.05,
+        "area_m2": 1.27,
+        "channel": "starboard",
+        "ground_range_m": 42.28,
+        "status": "high_confidence",
+        "contrast_ratio": 1.72,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8355573,
+          18.9227579
+        ]
+      },
+      "properties": {
+        "id": "a6998c2c",
+        "class": "generic_debris",
+        "confidence": 62.5,
+        "length_m": 1.7,
+        "width_m": 3.12,
+        "height_m": 0.65,
+        "area_m2": 5.31,
+        "channel": "starboard",
+        "ground_range_m": 7.04,
+        "status": "high_confidence",
+        "contrast_ratio": 1.77,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350037,
+          18.9218089
+        ]
+      },
+      "properties": {
+        "id": "a630ad1d",
+        "class": "pipe_cylinder",
+        "confidence": 62.4,
+        "length_m": 1.54,
+        "width_m": 3.61,
+        "height_m": 0.05,
+        "area_m2": 5.58,
+        "channel": "starboard",
+        "ground_range_m": 45.06,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352704,
+          18.922496
+        ]
+      },
+      "properties": {
+        "id": "f895a6a0",
+        "class": "generic_debris",
+        "confidence": 62.4,
+        "length_m": 1.54,
+        "width_m": 3.12,
+        "height_m": 0.8,
+        "area_m2": 4.82,
+        "channel": "starboard",
+        "ground_range_m": 8.94,
+        "status": "high_confidence",
+        "contrast_ratio": 1.83,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8355109,
+          18.9229595
+        ]
+      },
+      "properties": {
+        "id": "beb970e1",
+        "class": "generic_debris",
+        "confidence": 61.8,
+        "length_m": 1.54,
+        "width_m": 2.34,
+        "height_m": 0.57,
+        "area_m2": 3.62,
+        "channel": "port",
+        "ground_range_m": 13.08,
+        "status": "high_confidence",
+        "contrast_ratio": 2.07,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350423,
+          18.9228696
+        ]
+      },
+      "properties": {
+        "id": "181201e4",
+        "class": "pipe_cylinder",
+        "confidence": 61.7,
+        "length_m": 1.39,
+        "width_m": 2.25,
+        "height_m": 0.5,
+        "area_m2": 3.12,
+        "channel": "port",
+        "ground_range_m": 38.1,
+        "status": "high_confidence",
+        "contrast_ratio": 1.72,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354139,
+          18.922652
+        ]
+      },
+      "properties": {
+        "id": "9c02304d",
+        "class": "generic_debris",
+        "confidence": 61.7,
+        "length_m": 1.54,
+        "width_m": 3.22,
+        "height_m": 1.17,
+        "area_m2": 4.97,
+        "channel": "starboard",
+        "ground_range_m": 5.91,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350851,
+          18.9218538
+        ]
+      },
+      "properties": {
+        "id": "72d5bfdc",
+        "class": "generic_debris",
+        "confidence": 61.5,
+        "length_m": 1.54,
+        "width_m": 2.93,
+        "height_m": 0.05,
+        "area_m2": 4.52,
+        "channel": "starboard",
+        "ground_range_m": 47.5,
+        "status": "high_confidence",
+        "contrast_ratio": 1.53,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354239,
+          18.9224047
+        ]
+      },
+      "properties": {
+        "id": "ef4764a0",
+        "class": "generic_debris",
+        "confidence": 61.4,
+        "length_m": 1.54,
+        "width_m": 1.95,
+        "height_m": 0.07,
+        "area_m2": 3.01,
+        "channel": "starboard",
+        "ground_range_m": 27.23,
+        "status": "high_confidence",
+        "contrast_ratio": 1.76,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8353554,
+          18.9222827
+        ]
+      },
+      "properties": {
+        "id": "37892d86",
+        "class": "generic_debris",
+        "confidence": 61.3,
+        "length_m": 1.54,
+        "width_m": 2.05,
+        "height_m": 0.09,
+        "area_m2": 3.17,
+        "channel": "starboard",
+        "ground_range_m": 32.56,
+        "status": "high_confidence",
+        "contrast_ratio": 1.73,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356348,
+          18.9226799
+        ]
+      },
+      "properties": {
+        "id": "0a193170",
+        "class": "generic_debris",
+        "confidence": 61.2,
+        "length_m": 1.54,
+        "width_m": 2.15,
+        "height_m": 0.15,
+        "area_m2": 3.32,
+        "channel": "starboard",
+        "ground_range_m": 18.93,
+        "status": "high_confidence",
+        "contrast_ratio": 1.83,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350505,
+          18.9227327
+        ]
+      },
+      "properties": {
+        "id": "ccb022f9",
+        "class": "generic_debris",
+        "confidence": 61.1,
+        "length_m": 1.7,
+        "width_m": 2.15,
+        "height_m": 0.07,
+        "area_m2": 3.65,
+        "channel": "port",
+        "ground_range_m": 26.1,
+        "status": "high_confidence",
+        "contrast_ratio": 1.84,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351387,
+          18.9229167
+        ]
+      },
+      "properties": {
+        "id": "d31bb3ed",
+        "class": "generic_debris",
+        "confidence": 61.1,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.5,
+        "area_m2": 2.86,
+        "channel": "port",
+        "ground_range_m": 35.29,
+        "status": "high_confidence",
+        "contrast_ratio": 1.74,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358948,
+          18.9226415
+        ]
+      },
+      "properties": {
+        "id": "ee8743a9",
+        "class": "generic_debris",
+        "confidence": 61.1,
+        "length_m": 1.54,
+        "width_m": 2.25,
+        "height_m": 0.07,
+        "area_m2": 3.47,
+        "channel": "starboard",
+        "ground_range_m": 40.14,
+        "status": "high_confidence",
+        "contrast_ratio": 1.69,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8348986,
+          18.9222787
+        ]
+      },
+      "properties": {
+        "id": "7f428d40",
+        "class": "generic_debris",
+        "confidence": 60.8,
+        "length_m": 1.54,
+        "width_m": 2.44,
+        "height_m": 10.01,
+        "area_m2": 3.77,
+        "channel": "starboard",
+        "ground_range_m": 0.0,
+        "status": "high_confidence",
+        "contrast_ratio": 1.96,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354684,
+          18.922499
+        ]
+      },
+      "properties": {
+        "id": "dd92da04",
+        "class": "generic_debris",
+        "confidence": 60.8,
+        "length_m": 1.7,
+        "width_m": 2.34,
+        "height_m": 0.09,
+        "area_m2": 3.98,
+        "channel": "starboard",
+        "ground_range_m": 22.46,
+        "status": "high_confidence",
+        "contrast_ratio": 1.88,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356005,
+          18.922623
+        ]
+      },
+      "properties": {
+        "id": "6847123e",
+        "class": "generic_debris",
+        "confidence": 60.8,
+        "length_m": 1.7,
+        "width_m": 1.95,
+        "height_m": 0.13,
+        "area_m2": 3.32,
+        "channel": "starboard",
+        "ground_range_m": 21.35,
+        "status": "high_confidence",
+        "contrast_ratio": 1.87,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357544,
+          18.92257
+        ]
+      },
+      "properties": {
+        "id": "66be21e2",
+        "class": "generic_debris",
+        "confidence": 60.8,
+        "length_m": 1.7,
+        "width_m": 1.66,
+        "height_m": 0.05,
+        "area_m2": 2.82,
+        "channel": "starboard",
+        "ground_range_m": 36.41,
+        "status": "high_confidence",
+        "contrast_ratio": 1.77,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358239,
+          18.9225617
+        ]
+      },
+      "properties": {
+        "id": "7a40efce",
+        "class": "generic_debris",
+        "confidence": 60.8,
+        "length_m": 1.7,
+        "width_m": 1.76,
+        "height_m": 0.5,
+        "area_m2": 2.98,
+        "channel": "starboard",
+        "ground_range_m": 41.9,
+        "status": "high_confidence",
+        "contrast_ratio": 1.76,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351761,
+          18.9222158
+        ]
+      },
+      "properties": {
+        "id": "f23d8f2e",
+        "class": "generic_debris",
+        "confidence": 60.7,
+        "length_m": 1.7,
+        "width_m": 1.76,
+        "height_m": 0.05,
+        "area_m2": 2.98,
+        "channel": "starboard",
+        "ground_range_m": 25.24,
+        "status": "high_confidence",
+        "contrast_ratio": 1.8,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350585,
+          18.9219223
+        ]
+      },
+      "properties": {
+        "id": "1d59e6a3",
+        "class": "generic_debris",
+        "confidence": 60.7,
+        "length_m": 1.7,
+        "width_m": 1.46,
+        "height_m": 0.05,
+        "area_m2": 2.49,
+        "channel": "starboard",
+        "ground_range_m": 40.12,
+        "status": "high_confidence",
+        "contrast_ratio": 2.15,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8348537,
+          18.9218098
+        ]
+      },
+      "properties": {
+        "id": "c667beb7",
+        "class": "generic_debris",
+        "confidence": 60.6,
+        "length_m": 1.7,
+        "width_m": 1.17,
+        "height_m": 0.5,
+        "area_m2": 1.99,
+        "channel": "starboard",
+        "ground_range_m": 33.83,
+        "status": "high_confidence",
+        "contrast_ratio": 1.82,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354771,
+          18.9231065
+        ]
+      },
+      "properties": {
+        "id": "c2abe6d6",
+        "class": "generic_debris",
+        "confidence": 60.6,
+        "length_m": 1.54,
+        "width_m": 2.25,
+        "height_m": 0.07,
+        "area_m2": 3.47,
+        "channel": "port",
+        "ground_range_m": 27.66,
+        "status": "high_confidence",
+        "contrast_ratio": 1.74,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8356436,
+          18.9226828
+        ]
+      },
+      "properties": {
+        "id": "38cb483b",
+        "class": "generic_debris",
+        "confidence": 60.6,
+        "length_m": 1.54,
+        "width_m": 2.05,
+        "height_m": 0.1,
+        "area_m2": 3.17,
+        "channel": "starboard",
+        "ground_range_m": 19.3,
+        "status": "high_confidence",
+        "contrast_ratio": 1.67,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350721,
+          18.9219894
+        ]
+      },
+      "properties": {
+        "id": "35d74453",
+        "class": "generic_debris",
+        "confidence": 60.5,
+        "length_m": 1.54,
+        "width_m": 2.05,
+        "height_m": 0.5,
+        "area_m2": 3.17,
+        "channel": "starboard",
+        "ground_range_m": 35.82,
+        "status": "high_confidence",
+        "contrast_ratio": 1.55,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358642,
+          18.9226084
+        ]
+      },
+      "properties": {
+        "id": "34cf8a03",
+        "class": "container",
+        "confidence": 60.5,
+        "length_m": 1.54,
+        "width_m": 1.95,
+        "height_m": 0.05,
+        "area_m2": 3.01,
+        "channel": "starboard",
+        "ground_range_m": 40.77,
+        "status": "high_confidence",
+        "contrast_ratio": 1.86,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8347943,
+          18.9218829
+        ]
+      },
+      "properties": {
+        "id": "ba1550b5",
+        "class": "generic_debris",
+        "confidence": 60.4,
+        "length_m": 1.7,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.65,
+        "channel": "starboard",
+        "ground_range_m": 23.67,
+        "status": "high_confidence",
+        "contrast_ratio": 2.01,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351549,
+          18.9221686
+        ]
+      },
+      "properties": {
+        "id": "3f240f88",
+        "class": "generic_debris",
+        "confidence": 60.4,
+        "length_m": 1.7,
+        "width_m": 1.27,
+        "height_m": 0.5,
+        "area_m2": 2.16,
+        "channel": "starboard",
+        "ground_range_m": 27.5,
+        "status": "high_confidence",
+        "contrast_ratio": 1.69,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349103,
+          18.9227541
+        ]
+      },
+      "properties": {
+        "id": "1d44fe1a",
+        "class": "container",
+        "confidence": 60.4,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.08,
+        "area_m2": 2.86,
+        "channel": "port",
+        "ground_range_m": 37.73,
+        "status": "high_confidence",
+        "contrast_ratio": 1.65,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8343132,
+          18.9223476
+        ]
+      },
+      "properties": {
+        "id": "76d0607a",
+        "class": "generic_debris",
+        "confidence": 60.3,
+        "length_m": 1.54,
+        "width_m": 0.68,
+        "height_m": 0.5,
+        "area_m2": 1.06,
+        "channel": "port",
+        "ground_range_m": 48.66,
+        "status": "high_confidence",
+        "contrast_ratio": 1.5,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354856,
+          18.9223587
+        ]
+      },
+      "properties": {
+        "id": "a5cd0615",
+        "class": "generic_debris",
+        "confidence": 60.3,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.5,
+        "area_m2": 2.86,
+        "channel": "starboard",
+        "ground_range_m": 35.37,
+        "status": "high_confidence",
+        "contrast_ratio": 1.62,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8357705,
+          18.9225705
+        ]
+      },
+      "properties": {
+        "id": "c4ebc268",
+        "class": "generic_debris",
+        "confidence": 60.3,
+        "length_m": 1.54,
+        "width_m": 1.46,
+        "height_m": 0.5,
+        "area_m2": 2.26,
+        "channel": "starboard",
+        "ground_range_m": 37.48,
+        "status": "high_confidence",
+        "contrast_ratio": 1.55,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350797,
+          18.9229479
+        ]
+      },
+      "properties": {
+        "id": "57e71cfb",
+        "class": "generic_debris",
+        "confidence": 60.3,
+        "length_m": 1.7,
+        "width_m": 1.37,
+        "height_m": 0.05,
+        "area_m2": 2.32,
+        "channel": "port",
+        "ground_range_m": 42.01,
+        "status": "high_confidence",
+        "contrast_ratio": 1.57,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358918,
+          18.9226576
+        ]
+      },
+      "properties": {
+        "id": "114f429c",
+        "class": "generic_debris",
+        "confidence": 60.3,
+        "length_m": 1.7,
+        "width_m": 1.86,
+        "height_m": 0.5,
+        "area_m2": 3.15,
+        "channel": "starboard",
+        "ground_range_m": 38.6,
+        "status": "high_confidence",
+        "contrast_ratio": 1.5,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.834859,
+          18.9218127
+        ]
+      },
+      "properties": {
+        "id": "e60cc527",
+        "class": "pipe_cylinder",
+        "confidence": 60.2,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.5,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 34.0,
+        "status": "high_confidence",
+        "contrast_ratio": 1.82,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354901,
+          18.9223539
+        ]
+      },
+      "properties": {
+        "id": "6b587719",
+        "class": "generic_debris",
+        "confidence": 60.2,
+        "length_m": 1.54,
+        "width_m": 1.66,
+        "height_m": 0.5,
+        "area_m2": 2.56,
+        "channel": "starboard",
+        "ground_range_m": 36.08,
+        "status": "high_confidence",
+        "contrast_ratio": 1.66,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352845,
+          18.9225062
+        ]
+      },
+      "properties": {
+        "id": "2824182e",
+        "class": "generic_debris",
+        "confidence": 60.2,
+        "length_m": 1.54,
+        "width_m": 2.93,
+        "height_m": 0.31,
+        "area_m2": 4.52,
+        "channel": "starboard",
+        "ground_range_m": 9.07,
+        "status": "high_confidence",
+        "contrast_ratio": 1.59,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8355884,
+          18.9225658
+        ]
+      },
+      "properties": {
+        "id": "8da55de9",
+        "class": "generic_debris",
+        "confidence": 60.2,
+        "length_m": 1.54,
+        "width_m": 1.95,
+        "height_m": 0.11,
+        "area_m2": 3.01,
+        "channel": "starboard",
+        "ground_range_m": 25.27,
+        "status": "high_confidence",
+        "contrast_ratio": 1.65,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8358348,
+          18.9225498
+        ]
+      },
+      "properties": {
+        "id": "3b126489",
+        "class": "pipe_cylinder",
+        "confidence": 60.2,
+        "length_m": 1.54,
+        "width_m": 2.05,
+        "height_m": 0.5,
+        "area_m2": 3.17,
+        "channel": "starboard",
+        "ground_range_m": 43.65,
+        "status": "high_confidence",
+        "contrast_ratio": 1.93,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8354994,
+          18.9224009
+        ]
+      },
+      "properties": {
+        "id": "4502c771",
+        "class": "generic_debris",
+        "confidence": 60.1,
+        "length_m": 1.54,
+        "width_m": 1.95,
+        "height_m": 0.06,
+        "area_m2": 3.01,
+        "channel": "starboard",
+        "ground_range_m": 32.8,
+        "status": "high_confidence",
+        "contrast_ratio": 1.58,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8355806,
+          18.9225499
+        ]
+      },
+      "properties": {
+        "id": "c298bebf",
+        "class": "generic_debris",
+        "confidence": 60.1,
+        "length_m": 1.7,
+        "width_m": 2.05,
+        "height_m": 0.07,
+        "area_m2": 3.48,
+        "channel": "starboard",
+        "ground_range_m": 26.04,
+        "status": "high_confidence",
+        "contrast_ratio": 1.76,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8359014,
+          18.9225464
+        ]
+      },
+      "properties": {
+        "id": "eebe299d",
+        "class": "generic_debris",
+        "confidence": 60.1,
+        "length_m": 1.7,
+        "width_m": 0.88,
+        "height_m": 0.5,
+        "area_m2": 1.49,
+        "channel": "starboard",
+        "ground_range_m": 48.53,
+        "status": "high_confidence",
+        "contrast_ratio": 1.55,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8349508,
+          18.9228383
+        ]
+      },
+      "properties": {
+        "id": "a40ce2b0",
+        "class": "pipe_cylinder",
+        "confidence": 60.1,
+        "length_m": 1.54,
+        "width_m": 2.05,
+        "height_m": 0.5,
+        "area_m2": 3.17,
+        "channel": "port",
+        "ground_range_m": 41.84,
+        "status": "high_confidence",
+        "contrast_ratio": 1.63,
+        "marker_color": "#007aff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8352048,
+          18.9221002
+        ]
+      },
+      "properties": {
+        "id": "a042dd96",
+        "class": "container",
+        "confidence": 60.0,
+        "length_m": 1.54,
+        "width_m": 1.37,
+        "height_m": 0.5,
+        "area_m2": 2.11,
+        "channel": "starboard",
+        "ground_range_m": 36.63,
+        "status": "high_confidence",
+        "contrast_ratio": 1.87,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351708,
+          18.9220213
+        ]
+      },
+      "properties": {
+        "id": "f46b0232",
+        "class": "container",
+        "confidence": 60.0,
+        "length_m": 1.54,
+        "width_m": 1.56,
+        "height_m": 0.05,
+        "area_m2": 2.41,
+        "channel": "starboard",
+        "ground_range_m": 40.47,
+        "status": "high_confidence",
+        "contrast_ratio": 1.5,
+        "marker_color": "#5856d6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351348,
+          18.9221201
+        ]
+      },
+      "properties": {
+        "id": "3f4a12b4",
+        "class": "generic_debris",
+        "confidence": 60.0,
+        "length_m": 1.54,
+        "width_m": 1.86,
+        "height_m": 0.5,
+        "area_m2": 2.86,
+        "channel": "starboard",
+        "ground_range_m": 29.97,
+        "status": "high_confidence",
+        "contrast_ratio": 1.51,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8350764,
+          18.9227922
+        ]
+      },
+      "properties": {
+        "id": "8182eef6",
+        "class": "generic_debris",
+        "confidence": 60.0,
+        "length_m": 1.54,
+        "width_m": 2.05,
+        "height_m": 0.5,
+        "area_m2": 3.17,
+        "channel": "port",
+        "ground_range_m": 29.26,
+        "status": "high_confidence",
+        "contrast_ratio": 1.73,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8351578,
+          18.9227609
+        ]
+      },
+      "properties": {
+        "id": "1d266d1e",
+        "class": "generic_debris",
+        "confidence": 60.0,
+        "length_m": 1.54,
+        "width_m": 2.15,
+        "height_m": 0.5,
+        "area_m2": 3.32,
+        "channel": "port",
+        "ground_range_m": 20.99,
+        "status": "high_confidence",
+        "contrast_ratio": 1.78,
+        "marker_color": "#ffcc00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            72.834601,
+            18.922001
+          ],
+          [
+            72.8346021,
+            18.922002
+          ],
+          [
+            72.8346031,
+            18.922003
+          ],
+          [
+            72.8346041,
+            18.9220039
+          ],
+          [
+            72.8346052,
+            18.9220049
+          ],
+          [
+            72.8346062,
+            18.9220059
+          ],
+          [
+            72.8346072,
+            18.9220069
+          ],
+          [
+            72.8346083,
+            18.9220079
+          ],
+          [
+            72.8346093,
+            18.9220089
+          ],
+          [
+            72.8346103,
+            18.9220098
+          ],
+          [
+            72.8346114,
+            18.9220108
+          ],
+          [
+            72.8346124,
+            18.9220118
+          ],
+          [
+            72.8346134,
+            18.9220128
+          ],
+          [
+            72.8346145,
+            18.9220138
+          ],
+          [
+            72.8346155,
+            18.9220147
+          ],
+          [
+            72.8346166,
+            18.9220157
+          ],
+          [
+            72.8346176,
+            18.9220167
+          ],
+          [
+            72.8346186,
+            18.9220177
+          ],
+          [
+            72.8346197,
+            18.9220187
+          ],
+          [
+            72.8346207,
+            18.9220197
+          ],
+          [
+            72.8346217,
+            18.9220206
+          ],
+          [
+            72.8346228,
+            18.9220216
+          ],
+          [
+            72.8346238,
+            18.9220226
+          ],
+          [
+            72.8346248,
+            18.9220236
+          ],
+          [
+            72.8346259,
+            18.9220246
+          ],
+          [
+            72.8346269,
+            18.9220256
+          ],
+          [
+            72.834628,
+            18.9220265
+          ],
+          [
+            72.834629,
+            18.9220275
+          ],
+          [
+            72.83463,
+            18.9220285
+          ],
+          [
+            72.8346311,
+            18.9220295
+          ],
+          [
+            72.8346321,
+            18.9220305
+          ],
+          [
+            72.8346331,
+            18.9220314
+          ],
+          [
+            72.8346342,
+            18.9220324
+          ],
+          [
+            72.8346352,
+            18.9220334
+          ],
+          [
+            72.8346362,
+            18.9220344
+          ],
+          [
+            72.8346373,
+            18.9220354
+          ],
+          [
+            72.8346383,
+            18.9220363
+          ],
+          [
+            72.8346394,
+            18.9220373
+          ],
+          [
+            72.8346404,
+            18.9220383
+          ],
+          [
+            72.8346414,
+            18.9220393
+          ],
+          [
+            72.8346425,
+            18.9220403
+          ],
+          [
+            72.8346435,
+            18.9220412
+          ],
+          [
+            72.8346445,
+            18.9220422
+          ],
+          [
+            72.8346456,
+            18.9220432
+          ],
+          [
+            72.8346466,
+            18.9220442
+          ],
+          [
+            72.8346477,
+            18.9220452
+          ],
+          [
+            72.8346487,
+            18.9220462
+          ],
+          [
+            72.8346497,
+            18.9220471
+          ],
+          [
+            72.8346508,
+            18.9220481
+          ],
+          [
+            72.8346518,
+            18.9220491
+          ],
+          [
+            72.8346528,
+            18.9220501
+          ],
+          [
+            72.8346539,
+            18.9220511
+          ],
+          [
+            72.8346549,
+            18.9220521
+          ],
+          [
+            72.8346559,
+            18.922053
+          ],
+          [
+            72.834657,
+            18.922054
+          ],
+          [
+            72.834658,
+            18.922055
+          ],
+          [
+            72.8346591,
+            18.922056
+          ],
+          [
+            72.8346601,
+            18.922057
+          ],
+          [
+            72.8346611,
+            18.9220579
+          ],
+          [
+            72.8346622,
+            18.9220589
+          ],
+          [
+            72.8346632,
+            18.9220599
+          ],
+          [
+            72.8346642,
+            18.9220609
+          ],
+          [
+            72.8346653,
+            18.9220619
+          ],
+          [
+            72.8346663,
+            18.9220628
+          ],
+          [
+            72.8346674,
+            18.9220638
+          ],
+          [
+            72.8346684,
+            18.9220648
+          ],
+          [
+            72.8346694,
+            18.9220658
+          ],
+          [
+            72.8346705,
+            18.9220668
+          ],
+          [
+            72.8346715,
+            18.9220677
+          ],
+          [
+            72.8346725,
+            18.9220687
+          ],
+          [
+            72.8346736,
+            18.9220697
+          ],
+          [
+            72.8346746,
+            18.9220707
+          ],
+          [
+            72.8346757,
+            18.9220717
+          ],
+          [
+            72.8346767,
+            18.9220726
+          ],
+          [
+            72.8346777,
+            18.9220736
+          ],
+          [
+            72.8346788,
+            18.9220746
+          ],
+          [
+            72.8346798,
+            18.9220756
+          ],
+          [
+            72.8346808,
+            18.9220766
+          ],
+          [
+            72.8346819,
+            18.9220775
+          ],
+          [
+            72.8346829,
+            18.9220785
+          ],
+          [
+            72.834684,
+            18.9220795
+          ],
+          [
+            72.834685,
+            18.9220805
+          ],
+          [
+            72.834686,
+            18.9220815
+          ],
+          [
+            72.8346871,
+            18.9220824
+          ],
+          [
+            72.8346881,
+            18.9220834
+          ],
+          [
+            72.8346891,
+            18.9220844
+          ],
+          [
+            72.8346902,
+            18.9220854
+          ],
+          [
+            72.8346912,
+            18.9220864
+          ],
+          [
+            72.8346923,
+            18.9220874
+          ],
+          [
+            72.8346933,
+            18.9220883
+          ],
+          [
+            72.8346943,
+            18.9220893
+          ],
+          [
+            72.8346954,
+            18.9220903
+          ],
+          [
+            72.8346964,
+            18.9220913
+          ],
+          [
+            72.8346974,
+            18.9220923
+          ],
+          [
+            72.8346985,
+            18.9220932
+          ],
+          [
+            72.8346995,
+            18.9220942
+          ],
+          [
+            72.8347006,
+            18.9220952
+          ],
+          [
+            72.8347016,
+            18.9220962
+          ],
+          [
+            72.8347026,
+            18.9220972
+          ],
+          [
+            72.8347037,
+            18.9220981
+          ],
+          [
+            72.8347047,
+            18.9220991
+          ],
+          [
+            72.8347058,
+            18.9221001
+          ],
+          [
+            72.8347068,
+            18.9221011
+          ],
+          [
+            72.8347078,
+            18.922102
+          ],
+          [
+            72.8347089,
+            18.922103
+          ],
+          [
+            72.8347099,
+            18.922104
+          ],
+          [
+            72.834711,
+            18.922105
+          ],
+          [
+            72.834712,
+            18.9221059
+          ],
+          [
+            72.8347131,
+            18.9221069
+          ],
+          [
+            72.8347141,
+            18.9221079
+          ],
+          [
+            72.8347151,
+            18.9221089
+          ],
+          [
+            72.8347162,
+            18.9221099
+          ],
+          [
+            72.8347172,
+            18.9221108
+          ],
+          [
+            72.8347183,
+            18.9221118
+          ],
+          [
+            72.8347193,
+            18.9221128
+          ],
+          [
+            72.8347203,
+            18.9221138
+          ],
+          [
+            72.8347214,
+            18.9221147
+          ],
+          [
+            72.8347224,
+            18.9221157
+          ],
+          [
+            72.8347235,
+            18.9221167
+          ],
+          [
+            72.8347245,
+            18.9221177
+          ],
+          [
+            72.8347256,
+            18.9221186
+          ],
+          [
+            72.8347266,
+            18.9221196
+          ],
+          [
+            72.8347277,
+            18.9221206
+          ],
+          [
+            72.8347287,
+            18.9221215
+          ],
+          [
+            72.8347298,
+            18.9221225
+          ],
+          [
+            72.8347308,
+            18.9221235
+          ],
+          [
+            72.8347319,
+            18.9221244
+          ],
+          [
+            72.8347329,
+            18.9221254
+          ],
+          [
+            72.8347339,
+            18.9221264
+          ],
+          [
+            72.834735,
+            18.9221274
+          ],
+          [
+            72.834736,
+            18.9221283
+          ],
+          [
+            72.8347371,
+            18.9221293
+          ],
+          [
+            72.8347381,
+            18.9221303
+          ],
+          [
+            72.8347392,
+            18.9221313
+          ],
+          [
+            72.8347402,
+            18.9221322
+          ],
+          [
+            72.8347413,
+            18.9221332
+          ],
+          [
+            72.8347423,
+            18.9221342
+          ],
+          [
+            72.8347434,
+            18.9221351
+          ],
+          [
+            72.8347444,
+            18.9221361
+          ],
+          [
+            72.8347455,
+            18.9221371
+          ],
+          [
+            72.8347465,
+            18.922138
+          ],
+          [
+            72.8347476,
+            18.922139
+          ],
+          [
+            72.8347486,
+            18.92214
+          ],
+          [
+            72.8347497,
+            18.9221409
+          ],
+          [
+            72.8347507,
+            18.9221419
+          ],
+          [
+            72.8347518,
+            18.9221429
+          ],
+          [
+            72.8347528,
+            18.9221439
+          ],
+          [
+            72.8347539,
+            18.9221448
+          ],
+          [
+            72.8347549,
+            18.9221458
+          ],
+          [
+            72.834756,
+            18.9221468
+          ],
+          [
+            72.834757,
+            18.9221478
+          ],
+          [
+            72.834758,
+            18.9221487
+          ],
+          [
+            72.8347591,
+            18.9221497
+          ],
+          [
+            72.8347601,
+            18.9221507
+          ],
+          [
+            72.8347612,
+            18.9221517
+          ],
+          [
+            72.8347622,
+            18.9221526
+          ],
+          [
+            72.8347632,
+            18.9221536
+          ],
+          [
+            72.8347643,
+            18.9221546
+          ],
+          [
+            72.8347653,
+            18.9221556
+          ],
+          [
+            72.8347664,
+            18.9221566
+          ],
+          [
+            72.8347674,
+            18.9221575
+          ],
+          [
+            72.8347684,
+            18.9221585
+          ],
+          [
+            72.8347695,
+            18.9221595
+          ],
+          [
+            72.8347705,
+            18.9221605
+          ],
+          [
+            72.8347716,
+            18.9221614
+          ],
+          [
+            72.8347726,
+            18.9221624
+          ],
+          [
+            72.8347737,
+            18.9221634
+          ],
+          [
+            72.8347747,
+            18.9221644
+          ],
+          [
+            72.8347758,
+            18.9221653
+          ],
+          [
+            72.8347768,
+            18.9221663
+          ],
+          [
+            72.8347778,
+            18.9221673
+          ],
+          [
+            72.8347789,
+            18.9221683
+          ],
+          [
+            72.8347799,
+            18.9221692
+          ],
+          [
+            72.834781,
+            18.9221702
+          ],
+          [
+            72.834782,
+            18.9221712
+          ],
+          [
+            72.834783,
+            18.9221722
+          ],
+          [
+            72.8347841,
+            18.9221731
+          ],
+          [
+            72.8347851,
+            18.9221741
+          ],
+          [
+            72.8347862,
+            18.9221751
+          ],
+          [
+            72.8347872,
+            18.9221761
+          ],
+          [
+            72.8347883,
+            18.922177
+          ],
+          [
+            72.8347893,
+            18.922178
+          ],
+          [
+            72.8347904,
+            18.922179
+          ],
+          [
+            72.8347914,
+            18.92218
+          ],
+          [
+            72.8347924,
+            18.9221809
+          ],
+          [
+            72.8347935,
+            18.9221819
+          ],
+          [
+            72.8347945,
+            18.9221829
+          ],
+          [
+            72.8347956,
+            18.9221839
+          ],
+          [
+            72.8347966,
+            18.9221848
+          ],
+          [
+            72.8347977,
+            18.9221858
+          ],
+          [
+            72.8347987,
+            18.9221868
+          ],
+          [
+            72.8347998,
+            18.9221877
+          ],
+          [
+            72.8348008,
+            18.9221887
+          ],
+          [
+            72.8348019,
+            18.9221897
+          ],
+          [
+            72.8348029,
+            18.9221906
+          ],
+          [
+            72.834804,
+            18.9221916
+          ],
+          [
+            72.834805,
+            18.9221926
+          ],
+          [
+            72.8348061,
+            18.9221935
+          ],
+          [
+            72.8348071,
+            18.9221945
+          ],
+          [
+            72.8348082,
+            18.9221955
+          ],
+          [
+            72.8348092,
+            18.9221965
+          ],
+          [
+            72.8348103,
+            18.9221974
+          ],
+          [
+            72.8348113,
+            18.9221984
+          ],
+          [
+            72.8348124,
+            18.9221994
+          ],
+          [
+            72.8348134,
+            18.9222003
+          ],
+          [
+            72.8348145,
+            18.9222013
+          ],
+          [
+            72.8348155,
+            18.9222023
+          ],
+          [
+            72.8348165,
+            18.9222033
+          ],
+          [
+            72.8348176,
+            18.9222042
+          ],
+          [
+            72.8348186,
+            18.9222052
+          ],
+          [
+            72.8348197,
+            18.9222062
+          ],
+          [
+            72.8348207,
+            18.9222072
+          ],
+          [
+            72.8348218,
+            18.9222081
+          ],
+          [
+            72.8348228,
+            18.9222091
+          ],
+          [
+            72.8348238,
+            18.9222101
+          ],
+          [
+            72.8348249,
+            18.9222111
+          ],
+          [
+            72.8348259,
+            18.9222121
+          ],
+          [
+            72.834827,
+            18.922213
+          ],
+          [
+            72.834828,
+            18.922214
+          ],
+          [
+            72.834829,
+            18.922215
+          ],
+          [
+            72.8348301,
+            18.922216
+          ],
+          [
+            72.8348311,
+            18.9222169
+          ],
+          [
+            72.8348322,
+            18.9222179
+          ],
+          [
+            72.8348332,
+            18.9222189
+          ],
+          [
+            72.8348342,
+            18.9222199
+          ],
+          [
+            72.8348353,
+            18.9222208
+          ],
+          [
+            72.8348363,
+            18.9222218
+          ],
+          [
+            72.8348374,
+            18.9222228
+          ],
+          [
+            72.8348384,
+            18.9222238
+          ],
+          [
+            72.8348395,
+            18.9222247
+          ],
+          [
+            72.8348405,
+            18.9222257
+          ],
+          [
+            72.8348416,
+            18.9222267
+          ],
+          [
+            72.8348426,
+            18.9222276
+          ],
+          [
+            72.8348437,
+            18.9222286
+          ],
+          [
+            72.8348447,
+            18.9222296
+          ],
+          [
+            72.8348458,
+            18.9222305
+          ],
+          [
+            72.8348468,
+            18.9222315
+          ],
+          [
+            72.8348479,
+            18.9222325
+          ],
+          [
+            72.8348489,
+            18.9222335
+          ],
+          [
+            72.83485,
+            18.9222344
+          ],
+          [
+            72.834851,
+            18.9222354
+          ],
+          [
+            72.8348521,
+            18.9222364
+          ],
+          [
+            72.8348531,
+            18.9222373
+          ],
+          [
+            72.8348542,
+            18.9222383
+          ],
+          [
+            72.8348552,
+            18.9222393
+          ],
+          [
+            72.8348563,
+            18.9222402
+          ],
+          [
+            72.8348573,
+            18.9222412
+          ],
+          [
+            72.8348584,
+            18.9222422
+          ],
+          [
+            72.8348594,
+            18.9222431
+          ],
+          [
+            72.8348605,
+            18.9222441
+          ],
+          [
+            72.8348615,
+            18.9222451
+          ],
+          [
+            72.8348626,
+            18.922246
+          ],
+          [
+            72.8348636,
+            18.922247
+          ],
+          [
+            72.8348647,
+            18.922248
+          ],
+          [
+            72.8348658,
+            18.9222489
+          ],
+          [
+            72.8348668,
+            18.9222499
+          ],
+          [
+            72.8348679,
+            18.9222508
+          ],
+          [
+            72.8348689,
+            18.9222518
+          ],
+          [
+            72.83487,
+            18.9222528
+          ],
+          [
+            72.834871,
+            18.9222537
+          ],
+          [
+            72.8348721,
+            18.9222547
+          ],
+          [
+            72.8348732,
+            18.9222557
+          ],
+          [
+            72.8348742,
+            18.9222566
+          ],
+          [
+            72.8348753,
+            18.9222576
+          ],
+          [
+            72.8348763,
+            18.9222585
+          ],
+          [
+            72.8348774,
+            18.9222595
+          ],
+          [
+            72.8348784,
+            18.9222605
+          ],
+          [
+            72.8348795,
+            18.9222614
+          ],
+          [
+            72.8348806,
+            18.9222624
+          ],
+          [
+            72.8348816,
+            18.9222633
+          ],
+          [
+            72.8348827,
+            18.9222643
+          ],
+          [
+            72.8348837,
+            18.9222652
+          ],
+          [
+            72.8348848,
+            18.9222662
+          ],
+          [
+            72.8348859,
+            18.9222672
+          ],
+          [
+            72.8348869,
+            18.9222681
+          ],
+          [
+            72.834888,
+            18.9222691
+          ],
+          [
+            72.834889,
+            18.92227
+          ],
+          [
+            72.8348901,
+            18.922271
+          ],
+          [
+            72.8348912,
+            18.922272
+          ],
+          [
+            72.8348922,
+            18.9222729
+          ],
+          [
+            72.8348933,
+            18.9222739
+          ],
+          [
+            72.8348943,
+            18.9222748
+          ],
+          [
+            72.8348954,
+            18.9222758
+          ],
+          [
+            72.8348965,
+            18.9222768
+          ],
+          [
+            72.8348975,
+            18.9222777
+          ],
+          [
+            72.8348986,
+            18.9222787
+          ],
+          [
+            72.8348996,
+            18.9222796
+          ],
+          [
+            72.8349007,
+            18.9222806
+          ],
+          [
+            72.8349017,
+            18.9222816
+          ],
+          [
+            72.8349028,
+            18.9222825
+          ],
+          [
+            72.8349038,
+            18.9222835
+          ],
+          [
+            72.8349049,
+            18.9222845
+          ],
+          [
+            72.834906,
+            18.9222854
+          ],
+          [
+            72.834907,
+            18.9222864
+          ],
+          [
+            72.8349081,
+            18.9222874
+          ],
+          [
+            72.8349091,
+            18.9222883
+          ],
+          [
+            72.8349102,
+            18.9222893
+          ],
+          [
+            72.8349112,
+            18.9222903
+          ],
+          [
+            72.8349123,
+            18.9222912
+          ],
+          [
+            72.8349133,
+            18.9222922
+          ],
+          [
+            72.8349144,
+            18.9222932
+          ],
+          [
+            72.8349154,
+            18.9222941
+          ],
+          [
+            72.8349165,
+            18.9222951
+          ],
+          [
+            72.8349175,
+            18.9222961
+          ],
+          [
+            72.8349186,
+            18.922297
+          ],
+          [
+            72.8349196,
+            18.922298
+          ],
+          [
+            72.8349207,
+            18.922299
+          ],
+          [
+            72.8349217,
+            18.9222999
+          ],
+          [
+            72.8349228,
+            18.9223009
+          ],
+          [
+            72.8349238,
+            18.9223019
+          ],
+          [
+            72.8349249,
+            18.9223029
+          ],
+          [
+            72.8349259,
+            18.9223038
+          ],
+          [
+            72.834927,
+            18.9223048
+          ],
+          [
+            72.834928,
+            18.9223058
+          ],
+          [
+            72.8349291,
+            18.9223067
+          ],
+          [
+            72.8349301,
+            18.9223077
+          ],
+          [
+            72.8349312,
+            18.9223087
+          ],
+          [
+            72.8349322,
+            18.9223096
+          ],
+          [
+            72.8349333,
+            18.9223106
+          ],
+          [
+            72.8349343,
+            18.9223116
+          ],
+          [
+            72.8349354,
+            18.9223125
+          ],
+          [
+            72.8349364,
+            18.9223135
+          ],
+          [
+            72.8349375,
+            18.9223145
+          ],
+          [
+            72.8349386,
+            18.9223154
+          ],
+          [
+            72.8349396,
+            18.9223164
+          ],
+          [
+            72.8349407,
+            18.9223173
+          ],
+          [
+            72.8349417,
+            18.9223183
+          ],
+          [
+            72.8349428,
+            18.9223192
+          ],
+          [
+            72.8349439,
+            18.9223202
+          ],
+          [
+            72.8349449,
+            18.9223212
+          ],
+          [
+            72.834946,
+            18.9223221
+          ],
+          [
+            72.8349471,
+            18.9223231
+          ],
+          [
+            72.8349481,
+            18.922324
+          ],
+          [
+            72.8349492,
+            18.922325
+          ],
+          [
+            72.8349502,
+            18.9223259
+          ],
+          [
+            72.8349513,
+            18.9223269
+          ],
+          [
+            72.8349524,
+            18.9223278
+          ],
+          [
+            72.8349534,
+            18.9223288
+          ],
+          [
+            72.8349545,
+            18.9223298
+          ],
+          [
+            72.8349556,
+            18.9223307
+          ],
+          [
+            72.8349566,
+            18.9223317
+          ],
+          [
+            72.8349577,
+            18.9223326
+          ],
+          [
+            72.8349588,
+            18.9223336
+          ],
+          [
+            72.8349598,
+            18.9223345
+          ],
+          [
+            72.8349609,
+            18.9223355
+          ],
+          [
+            72.834962,
+            18.9223364
+          ],
+          [
+            72.834963,
+            18.9223374
+          ],
+          [
+            72.8349641,
+            18.9223383
+          ],
+          [
+            72.8349652,
+            18.9223393
+          ],
+          [
+            72.8349662,
+            18.9223402
+          ],
+          [
+            72.8349673,
+            18.9223412
+          ],
+          [
+            72.8349684,
+            18.9223421
+          ],
+          [
+            72.8349694,
+            18.9223431
+          ],
+          [
+            72.8349705,
+            18.9223441
+          ],
+          [
+            72.8349715,
+            18.922345
+          ],
+          [
+            72.8349726,
+            18.922346
+          ],
+          [
+            72.8349737,
+            18.9223469
+          ],
+          [
+            72.8349747,
+            18.9223479
+          ],
+          [
+            72.8349758,
+            18.9223489
+          ],
+          [
+            72.8349768,
+            18.9223498
+          ],
+          [
+            72.8349779,
+            18.9223508
+          ],
+          [
+            72.8349789,
+            18.9223517
+          ],
+          [
+            72.83498,
+            18.9223527
+          ],
+          [
+            72.8349811,
+            18.9223537
+          ],
+          [
+            72.8349821,
+            18.9223546
+          ],
+          [
+            72.8349832,
+            18.9223556
+          ],
+          [
+            72.8349842,
+            18.9223565
+          ],
+          [
+            72.8349853,
+            18.9223575
+          ],
+          [
+            72.8349864,
+            18.9223585
+          ],
+          [
+            72.8349874,
+            18.9223594
+          ],
+          [
+            72.8349885,
+            18.9223604
+          ],
+          [
+            72.8349895,
+            18.9223613
+          ],
+          [
+            72.8349906,
+            18.9223623
+          ],
+          [
+            72.8349917,
+            18.9223632
+          ],
+          [
+            72.8349927,
+            18.9223642
+          ],
+          [
+            72.8349938,
+            18.9223651
+          ],
+          [
+            72.8349949,
+            18.9223661
+          ],
+          [
+            72.8349959,
+            18.922367
+          ],
+          [
+            72.834997,
+            18.922368
+          ],
+          [
+            72.8349981,
+            18.922369
+          ],
+          [
+            72.8349991,
+            18.9223699
+          ],
+          [
+            72.8350002,
+            18.9223709
+          ],
+          [
+            72.8350013,
+            18.9223718
+          ],
+          [
+            72.8350023,
+            18.9223728
+          ],
+          [
+            72.8350034,
+            18.9223737
+          ],
+          [
+            72.8350045,
+            18.9223747
+          ],
+          [
+            72.8350055,
+            18.9223756
+          ],
+          [
+            72.8350066,
+            18.9223766
+          ],
+          [
+            72.8350077,
+            18.9223775
+          ],
+          [
+            72.8350087,
+            18.9223785
+          ],
+          [
+            72.8350098,
+            18.9223794
+          ],
+          [
+            72.8350109,
+            18.9223804
+          ],
+          [
+            72.8350119,
+            18.9223813
+          ],
+          [
+            72.835013,
+            18.9223823
+          ],
+          [
+            72.8350141,
+            18.9223832
+          ],
+          [
+            72.8350151,
+            18.9223842
+          ],
+          [
+            72.8350162,
+            18.9223851
+          ],
+          [
+            72.8350173,
+            18.9223861
+          ],
+          [
+            72.8350184,
+            18.922387
+          ],
+          [
+            72.8350194,
+            18.922388
+          ],
+          [
+            72.8350205,
+            18.9223889
+          ],
+          [
+            72.8350215,
+            18.9223899
+          ],
+          [
+            72.8350226,
+            18.9223908
+          ],
+          [
+            72.8350237,
+            18.9223918
+          ],
+          [
+            72.8350247,
+            18.9223927
+          ],
+          [
+            72.8350258,
+            18.9223937
+          ],
+          [
+            72.8350269,
+            18.9223947
+          ],
+          [
+            72.8350279,
+            18.9223956
+          ],
+          [
+            72.835029,
+            18.9223966
+          ],
+          [
+            72.8350301,
+            18.9223975
+          ],
+          [
+            72.8350311,
+            18.9223985
+          ],
+          [
+            72.8350322,
+            18.9223994
+          ],
+          [
+            72.8350333,
+            18.9224004
+          ],
+          [
+            72.8350343,
+            18.9224013
+          ],
+          [
+            72.8350354,
+            18.9224023
+          ],
+          [
+            72.8350365,
+            18.9224032
+          ],
+          [
+            72.8350375,
+            18.9224042
+          ],
+          [
+            72.8350386,
+            18.9224051
+          ],
+          [
+            72.8350397,
+            18.9224061
+          ],
+          [
+            72.8350407,
+            18.922407
+          ],
+          [
+            72.8350418,
+            18.922408
+          ],
+          [
+            72.8350429,
+            18.922409
+          ],
+          [
+            72.8350439,
+            18.9224099
+          ],
+          [
+            72.835045,
+            18.9224109
+          ],
+          [
+            72.8350461,
+            18.9224118
+          ],
+          [
+            72.8350471,
+            18.9224128
+          ],
+          [
+            72.8350482,
+            18.9224137
+          ],
+          [
+            72.8350493,
+            18.9224147
+          ],
+          [
+            72.8350503,
+            18.9224156
+          ],
+          [
+            72.8350514,
+            18.9224166
+          ],
+          [
+            72.8350525,
+            18.9224175
+          ],
+          [
+            72.8350535,
+            18.9224185
+          ],
+          [
+            72.8350546,
+            18.9224194
+          ],
+          [
+            72.8350557,
+            18.9224204
+          ],
+          [
+            72.8350568,
+            18.9224213
+          ],
+          [
+            72.8350578,
+            18.9224222
+          ],
+          [
+            72.8350589,
+            18.9224232
+          ],
+          [
+            72.83506,
+            18.9224241
+          ],
+          [
+            72.8350611,
+            18.9224251
+          ],
+          [
+            72.8350621,
+            18.922426
+          ],
+          [
+            72.8350632,
+            18.922427
+          ],
+          [
+            72.8350643,
+            18.9224279
+          ],
+          [
+            72.8350654,
+            18.9224289
+          ],
+          [
+            72.8350664,
+            18.9224298
+          ],
+          [
+            72.8350675,
+            18.9224307
+          ],
+          [
+            72.8350686,
+            18.9224317
+          ],
+          [
+            72.8350697,
+            18.9224326
+          ],
+          [
+            72.8350708,
+            18.9224335
+          ],
+          [
+            72.8350718,
+            18.9224345
+          ],
+          [
+            72.8350729,
+            18.9224354
+          ],
+          [
+            72.835074,
+            18.9224364
+          ],
+          [
+            72.8350751,
+            18.9224373
+          ],
+          [
+            72.8350762,
+            18.9224382
+          ],
+          [
+            72.8350772,
+            18.9224392
+          ],
+          [
+            72.8350783,
+            18.9224401
+          ],
+          [
+            72.8350794,
+            18.9224411
+          ],
+          [
+            72.8350805,
+            18.922442
+          ],
+          [
+            72.8350816,
+            18.9224429
+          ],
+          [
+            72.8350826,
+            18.9224439
+          ],
+          [
+            72.8350837,
+            18.9224448
+          ],
+          [
+            72.8350848,
+            18.9224458
+          ],
+          [
+            72.8350859,
+            18.9224467
+          ],
+          [
+            72.835087,
+            18.9224476
+          ],
+          [
+            72.835088,
+            18.9224486
+          ],
+          [
+            72.8350891,
+            18.9224495
+          ],
+          [
+            72.8350902,
+            18.9224504
+          ],
+          [
+            72.8350913,
+            18.9224514
+          ],
+          [
+            72.8350924,
+            18.9224523
+          ],
+          [
+            72.8350935,
+            18.9224532
+          ],
+          [
+            72.8350945,
+            18.9224542
+          ],
+          [
+            72.8350956,
+            18.9224551
+          ],
+          [
+            72.8350967,
+            18.922456
+          ],
+          [
+            72.8350978,
+            18.922457
+          ],
+          [
+            72.8350989,
+            18.9224579
+          ],
+          [
+            72.8351,
+            18.9224589
+          ],
+          [
+            72.835101,
+            18.9224598
+          ],
+          [
+            72.8351021,
+            18.9224607
+          ],
+          [
+            72.8351032,
+            18.9224617
+          ],
+          [
+            72.8351043,
+            18.9224626
+          ],
+          [
+            72.8351054,
+            18.9224635
+          ],
+          [
+            72.8351065,
+            18.9224644
+          ],
+          [
+            72.8351076,
+            18.9224654
+          ],
+          [
+            72.8351086,
+            18.9224663
+          ],
+          [
+            72.8351097,
+            18.9224672
+          ],
+          [
+            72.8351108,
+            18.9224682
+          ],
+          [
+            72.8351119,
+            18.9224691
+          ],
+          [
+            72.835113,
+            18.92247
+          ],
+          [
+            72.8351141,
+            18.922471
+          ],
+          [
+            72.8351152,
+            18.9224719
+          ],
+          [
+            72.8351162,
+            18.9224729
+          ],
+          [
+            72.8351173,
+            18.9224738
+          ],
+          [
+            72.8351184,
+            18.9224747
+          ],
+          [
+            72.8351195,
+            18.9224757
+          ],
+          [
+            72.8351206,
+            18.9224766
+          ],
+          [
+            72.8351217,
+            18.9224775
+          ],
+          [
+            72.8351227,
+            18.9224785
+          ],
+          [
+            72.8351238,
+            18.9224794
+          ],
+          [
+            72.8351249,
+            18.9224803
+          ],
+          [
+            72.835126,
+            18.9224812
+          ],
+          [
+            72.8351271,
+            18.9224822
+          ],
+          [
+            72.8351282,
+            18.9224831
+          ],
+          [
+            72.8351293,
+            18.922484
+          ],
+          [
+            72.8351304,
+            18.922485
+          ],
+          [
+            72.8351314,
+            18.9224859
+          ],
+          [
+            72.8351325,
+            18.9224868
+          ],
+          [
+            72.8351336,
+            18.9224877
+          ],
+          [
+            72.8351347,
+            18.9224887
+          ],
+          [
+            72.8351358,
+            18.9224896
+          ],
+          [
+            72.8351369,
+            18.9224905
+          ],
+          [
+            72.835138,
+            18.9224915
+          ],
+          [
+            72.8351391,
+            18.9224924
+          ],
+          [
+            72.8351402,
+            18.9224933
+          ],
+          [
+            72.8351413,
+            18.9224942
+          ],
+          [
+            72.8351424,
+            18.9224952
+          ],
+          [
+            72.8351434,
+            18.9224961
+          ],
+          [
+            72.8351445,
+            18.922497
+          ],
+          [
+            72.8351456,
+            18.922498
+          ],
+          [
+            72.8351467,
+            18.9224989
+          ],
+          [
+            72.8351478,
+            18.9224998
+          ],
+          [
+            72.8351489,
+            18.9225008
+          ],
+          [
+            72.83515,
+            18.9225017
+          ],
+          [
+            72.8351511,
+            18.9225026
+          ],
+          [
+            72.8351521,
+            18.9225036
+          ],
+          [
+            72.8351532,
+            18.9225045
+          ],
+          [
+            72.8351543,
+            18.9225054
+          ],
+          [
+            72.8351554,
+            18.9225063
+          ],
+          [
+            72.8351565,
+            18.9225073
+          ],
+          [
+            72.8351576,
+            18.9225082
+          ],
+          [
+            72.8351587,
+            18.9225091
+          ],
+          [
+            72.8351598,
+            18.9225101
+          ],
+          [
+            72.8351608,
+            18.922511
+          ],
+          [
+            72.8351619,
+            18.9225119
+          ],
+          [
+            72.835163,
+            18.9225128
+          ],
+          [
+            72.8351641,
+            18.9225138
+          ],
+          [
+            72.8351652,
+            18.9225147
+          ],
+          [
+            72.8351663,
+            18.9225156
+          ],
+          [
+            72.8351674,
+            18.9225166
+          ],
+          [
+            72.8351685,
+            18.9225175
+          ],
+          [
+            72.8351696,
+            18.9225184
+          ],
+          [
+            72.8351707,
+            18.9225193
+          ],
+          [
+            72.8351717,
+            18.9225203
+          ],
+          [
+            72.8351728,
+            18.9225212
+          ],
+          [
+            72.8351739,
+            18.9225221
+          ],
+          [
+            72.835175,
+            18.9225231
+          ],
+          [
+            72.8351761,
+            18.922524
+          ],
+          [
+            72.8351772,
+            18.9225249
+          ],
+          [
+            72.8351783,
+            18.9225258
+          ],
+          [
+            72.8351794,
+            18.9225268
+          ],
+          [
+            72.8351805,
+            18.9225277
+          ],
+          [
+            72.8351816,
+            18.9225286
+          ],
+          [
+            72.8351827,
+            18.9225295
+          ],
+          [
+            72.8351837,
+            18.9225305
+          ],
+          [
+            72.8351848,
+            18.9225314
+          ],
+          [
+            72.8351859,
+            18.9225323
+          ],
+          [
+            72.835187,
+            18.9225333
+          ],
+          [
+            72.8351881,
+            18.9225342
+          ],
+          [
+            72.8351892,
+            18.9225351
+          ],
+          [
+            72.8351903,
+            18.922536
+          ],
+          [
+            72.8351914,
+            18.922537
+          ],
+          [
+            72.8351925,
+            18.9225379
+          ],
+          [
+            72.8351935,
+            18.9225388
+          ],
+          [
+            72.8351946,
+            18.9225398
+          ],
+          [
+            72.8351957,
+            18.9225407
+          ],
+          [
+            72.8351968,
+            18.9225416
+          ],
+          [
+            72.8351979,
+            18.9225426
+          ],
+          [
+            72.835199,
+            18.9225435
+          ],
+          [
+            72.8352001,
+            18.9225444
+          ],
+          [
+            72.8352012,
+            18.9225454
+          ],
+          [
+            72.8352023,
+            18.9225463
+          ],
+          [
+            72.8352033,
+            18.9225472
+          ],
+          [
+            72.8352044,
+            18.9225481
+          ],
+          [
+            72.8352055,
+            18.9225491
+          ],
+          [
+            72.8352066,
+            18.92255
+          ],
+          [
+            72.8352077,
+            18.9225509
+          ],
+          [
+            72.8352088,
+            18.9225518
+          ],
+          [
+            72.8352099,
+            18.9225527
+          ],
+          [
+            72.835211,
+            18.9225537
+          ],
+          [
+            72.8352121,
+            18.9225546
+          ],
+          [
+            72.8352132,
+            18.9225555
+          ],
+          [
+            72.8352143,
+            18.9225564
+          ],
+          [
+            72.8352154,
+            18.9225573
+          ],
+          [
+            72.8352165,
+            18.9225582
+          ],
+          [
+            72.8352176,
+            18.9225592
+          ],
+          [
+            72.8352187,
+            18.9225601
+          ],
+          [
+            72.8352198,
+            18.922561
+          ],
+          [
+            72.8352209,
+            18.9225619
+          ],
+          [
+            72.835222,
+            18.9225628
+          ],
+          [
+            72.8352231,
+            18.9225638
+          ],
+          [
+            72.8352242,
+            18.9225647
+          ],
+          [
+            72.8352253,
+            18.9225656
+          ],
+          [
+            72.8352264,
+            18.9225665
+          ],
+          [
+            72.8352275,
+            18.9225674
+          ],
+          [
+            72.8352286,
+            18.9225683
+          ],
+          [
+            72.8352297,
+            18.9225693
+          ],
+          [
+            72.8352308,
+            18.9225702
+          ],
+          [
+            72.8352319,
+            18.9225711
+          ],
+          [
+            72.835233,
+            18.922572
+          ],
+          [
+            72.8352341,
+            18.9225729
+          ],
+          [
+            72.8352352,
+            18.9225738
+          ],
+          [
+            72.8352363,
+            18.9225748
+          ],
+          [
+            72.8352374,
+            18.9225757
+          ],
+          [
+            72.8352385,
+            18.9225766
+          ],
+          [
+            72.8352396,
+            18.9225775
+          ],
+          [
+            72.8352407,
+            18.9225784
+          ],
+          [
+            72.8352418,
+            18.9225793
+          ],
+          [
+            72.8352429,
+            18.9225803
+          ],
+          [
+            72.835244,
+            18.9225812
+          ],
+          [
+            72.8352451,
+            18.9225821
+          ],
+          [
+            72.8352462,
+            18.922583
+          ],
+          [
+            72.8352473,
+            18.9225839
+          ],
+          [
+            72.8352484,
+            18.9225849
+          ],
+          [
+            72.8352495,
+            18.9225858
+          ],
+          [
+            72.8352506,
+            18.9225867
+          ],
+          [
+            72.8352517,
+            18.9225876
+          ],
+          [
+            72.8352528,
+            18.9225885
+          ],
+          [
+            72.8352539,
+            18.9225894
+          ],
+          [
+            72.835255,
+            18.9225904
+          ],
+          [
+            72.8352561,
+            18.9225913
+          ],
+          [
+            72.8352572,
+            18.9225922
+          ],
+          [
+            72.8352583,
+            18.9225931
+          ],
+          [
+            72.8352594,
+            18.922594
+          ],
+          [
+            72.8352605,
+            18.9225949
+          ],
+          [
+            72.8352616,
+            18.9225959
+          ],
+          [
+            72.8352627,
+            18.9225968
+          ],
+          [
+            72.8352638,
+            18.9225977
+          ],
+          [
+            72.8352649,
+            18.9225986
+          ],
+          [
+            72.835266,
+            18.9225995
+          ],
+          [
+            72.8352671,
+            18.9226004
+          ],
+          [
+            72.8352682,
+            18.9226014
+          ],
+          [
+            72.8352693,
+            18.9226023
+          ],
+          [
+            72.8352704,
+            18.9226032
+          ],
+          [
+            72.8352715,
+            18.9226041
+          ],
+          [
+            72.8352726,
+            18.922605
+          ],
+          [
+            72.8352737,
+            18.9226059
+          ],
+          [
+            72.8352748,
+            18.9226069
+          ],
+          [
+            72.8352759,
+            18.9226078
+          ],
+          [
+            72.835277,
+            18.9226087
+          ],
+          [
+            72.8352781,
+            18.9226096
+          ],
+          [
+            72.8352793,
+            18.9226105
+          ],
+          [
+            72.8352804,
+            18.9226114
+          ],
+          [
+            72.8352815,
+            18.9226123
+          ],
+          [
+            72.8352826,
+            18.9226133
+          ],
+          [
+            72.8352837,
+            18.9226142
+          ],
+          [
+            72.8352848,
+            18.9226151
+          ],
+          [
+            72.8352859,
+            18.922616
+          ],
+          [
+            72.835287,
+            18.9226169
+          ],
+          [
+            72.835288,
+            18.9226179
+          ],
+          [
+            72.8352891,
+            18.9226188
+          ],
+          [
+            72.8352902,
+            18.9226197
+          ],
+          [
+            72.8352913,
+            18.9226206
+          ],
+          [
+            72.8352924,
+            18.9226215
+          ],
+          [
+            72.8352935,
+            18.9226225
+          ],
+          [
+            72.8352946,
+            18.9226234
+          ],
+          [
+            72.8352957,
+            18.9226243
+          ],
+          [
+            72.8352968,
+            18.9226252
+          ],
+          [
+            72.8352979,
+            18.9226261
+          ],
+          [
+            72.835299,
+            18.9226271
+          ],
+          [
+            72.8353001,
+            18.922628
+          ],
+          [
+            72.8353012,
+            18.9226289
+          ],
+          [
+            72.8353023,
+            18.9226298
+          ],
+          [
+            72.8353034,
+            18.9226307
+          ],
+          [
+            72.8353045,
+            18.9226317
+          ],
+          [
+            72.8353056,
+            18.9226326
+          ],
+          [
+            72.8353067,
+            18.9226335
+          ],
+          [
+            72.8353078,
+            18.9226344
+          ],
+          [
+            72.8353089,
+            18.9226353
+          ],
+          [
+            72.83531,
+            18.9226362
+          ],
+          [
+            72.8353111,
+            18.9226372
+          ],
+          [
+            72.8353122,
+            18.9226381
+          ],
+          [
+            72.8353133,
+            18.922639
+          ],
+          [
+            72.8353144,
+            18.9226399
+          ],
+          [
+            72.8353155,
+            18.9226408
+          ],
+          [
+            72.8353166,
+            18.9226418
+          ],
+          [
+            72.8353177,
+            18.9226427
+          ],
+          [
+            72.8353188,
+            18.9226436
+          ],
+          [
+            72.8353199,
+            18.9226445
+          ],
+          [
+            72.835321,
+            18.9226454
+          ],
+          [
+            72.8353221,
+            18.9226464
+          ],
+          [
+            72.8353232,
+            18.9226473
+          ],
+          [
+            72.8353243,
+            18.9226482
+          ],
+          [
+            72.8353254,
+            18.9226491
+          ],
+          [
+            72.8353265,
+            18.92265
+          ],
+          [
+            72.8353276,
+            18.9226509
+          ],
+          [
+            72.8353287,
+            18.9226519
+          ],
+          [
+            72.8353298,
+            18.9226528
+          ],
+          [
+            72.8353309,
+            18.9226537
+          ],
+          [
+            72.835332,
+            18.9226546
+          ],
+          [
+            72.8353331,
+            18.9226556
+          ],
+          [
+            72.8353342,
+            18.9226565
+          ],
+          [
+            72.8353353,
+            18.9226574
+          ],
+          [
+            72.8353364,
+            18.9226583
+          ],
+          [
+            72.8353375,
+            18.9226592
+          ],
+          [
+            72.8353386,
+            18.9226602
+          ],
+          [
+            72.8353397,
+            18.9226611
+          ],
+          [
+            72.8353408,
+            18.922662
+          ],
+          [
+            72.8353419,
+            18.9226629
+          ],
+          [
+            72.835343,
+            18.9226638
+          ],
+          [
+            72.8353441,
+            18.9226647
+          ],
+          [
+            72.8353452,
+            18.9226657
+          ],
+          [
+            72.8353463,
+            18.9226666
+          ],
+          [
+            72.8353474,
+            18.9226675
+          ],
+          [
+            72.8353485,
+            18.9226684
+          ],
+          [
+            72.8353495,
+            18.9226694
+          ],
+          [
+            72.8353506,
+            18.9226703
+          ],
+          [
+            72.8353517,
+            18.9226712
+          ],
+          [
+            72.8353528,
+            18.9226721
+          ],
+          [
+            72.8353539,
+            18.922673
+          ],
+          [
+            72.835355,
+            18.922674
+          ],
+          [
+            72.8353561,
+            18.9226749
+          ],
+          [
+            72.8353572,
+            18.9226758
+          ],
+          [
+            72.8353583,
+            18.9226767
+          ],
+          [
+            72.8353594,
+            18.9226776
+          ],
+          [
+            72.8353605,
+            18.9226786
+          ],
+          [
+            72.8353616,
+            18.9226795
+          ],
+          [
+            72.8353627,
+            18.9226804
+          ],
+          [
+            72.8353638,
+            18.9226813
+          ],
+          [
+            72.8353649,
+            18.9226822
+          ],
+          [
+            72.835366,
+            18.9226831
+          ],
+          [
+            72.8353671,
+            18.922684
+          ],
+          [
+            72.8353682,
+            18.922685
+          ],
+          [
+            72.8353693,
+            18.9226859
+          ],
+          [
+            72.8353705,
+            18.9226868
+          ],
+          [
+            72.8353716,
+            18.9226877
+          ],
+          [
+            72.8353727,
+            18.9226886
+          ],
+          [
+            72.8353738,
+            18.9226895
+          ],
+          [
+            72.8353749,
+            18.9226904
+          ],
+          [
+            72.835376,
+            18.9226913
+          ],
+          [
+            72.8353771,
+            18.9226922
+          ],
+          [
+            72.8353782,
+            18.9226932
+          ],
+          [
+            72.8353793,
+            18.9226941
+          ],
+          [
+            72.8353804,
+            18.922695
+          ],
+          [
+            72.8353815,
+            18.9226959
+          ],
+          [
+            72.8353826,
+            18.9226968
+          ],
+          [
+            72.8353837,
+            18.9226977
+          ],
+          [
+            72.8353848,
+            18.9226986
+          ],
+          [
+            72.835386,
+            18.9226995
+          ],
+          [
+            72.8353871,
+            18.9227004
+          ],
+          [
+            72.8353882,
+            18.9227013
+          ],
+          [
+            72.8353893,
+            18.9227023
+          ],
+          [
+            72.8353904,
+            18.9227032
+          ],
+          [
+            72.8353915,
+            18.9227041
+          ],
+          [
+            72.8353926,
+            18.922705
+          ],
+          [
+            72.8353937,
+            18.9227059
+          ],
+          [
+            72.8353948,
+            18.9227068
+          ],
+          [
+            72.8353959,
+            18.9227078
+          ],
+          [
+            72.835397,
+            18.9227087
+          ],
+          [
+            72.8353981,
+            18.9227096
+          ],
+          [
+            72.8353992,
+            18.9227105
+          ],
+          [
+            72.8354003,
+            18.9227115
+          ],
+          [
+            72.8354013,
+            18.9227124
+          ],
+          [
+            72.8354024,
+            18.9227133
+          ],
+          [
+            72.8354035,
+            18.9227142
+          ],
+          [
+            72.8354046,
+            18.9227152
+          ],
+          [
+            72.8354057,
+            18.9227161
+          ],
+          [
+            72.8354068,
+            18.922717
+          ],
+          [
+            72.8354079,
+            18.9227179
+          ],
+          [
+            72.835409,
+            18.9227189
+          ],
+          [
+            72.8354101,
+            18.9227198
+          ],
+          [
+            72.8354112,
+            18.9227207
+          ],
+          [
+            72.8354123,
+            18.9227216
+          ],
+          [
+            72.8354134,
+            18.9227226
+          ],
+          [
+            72.8354145,
+            18.9227235
+          ],
+          [
+            72.8354155,
+            18.9227244
+          ],
+          [
+            72.8354166,
+            18.9227253
+          ],
+          [
+            72.8354177,
+            18.9227263
+          ],
+          [
+            72.8354188,
+            18.9227272
+          ],
+          [
+            72.8354199,
+            18.9227281
+          ],
+          [
+            72.835421,
+            18.922729
+          ],
+          [
+            72.8354221,
+            18.92273
+          ],
+          [
+            72.8354232,
+            18.9227309
+          ],
+          [
+            72.8354243,
+            18.9227318
+          ],
+          [
+            72.8354254,
+            18.9227327
+          ],
+          [
+            72.8354265,
+            18.9227336
+          ],
+          [
+            72.8354276,
+            18.9227346
+          ],
+          [
+            72.8354287,
+            18.9227355
+          ],
+          [
+            72.8354298,
+            18.9227364
+          ],
+          [
+            72.8354309,
+            18.9227373
+          ],
+          [
+            72.835432,
+            18.9227383
+          ],
+          [
+            72.8354331,
+            18.9227392
+          ],
+          [
+            72.8354342,
+            18.9227401
+          ],
+          [
+            72.8354353,
+            18.922741
+          ],
+          [
+            72.8354364,
+            18.9227419
+          ],
+          [
+            72.8354375,
+            18.9227429
+          ],
+          [
+            72.8354385,
+            18.9227438
+          ],
+          [
+            72.8354396,
+            18.9227447
+          ],
+          [
+            72.8354407,
+            18.9227456
+          ],
+          [
+            72.8354418,
+            18.9227466
+          ],
+          [
+            72.8354429,
+            18.9227475
+          ],
+          [
+            72.835444,
+            18.9227484
+          ],
+          [
+            72.8354451,
+            18.9227493
+          ],
+          [
+            72.8354462,
+            18.9227503
+          ],
+          [
+            72.8354473,
+            18.9227512
+          ],
+          [
+            72.8354484,
+            18.9227521
+          ],
+          [
+            72.8354495,
+            18.922753
+          ],
+          [
+            72.8354506,
+            18.9227539
+          ],
+          [
+            72.8354517,
+            18.9227548
+          ],
+          [
+            72.8354528,
+            18.9227558
+          ],
+          [
+            72.8354539,
+            18.9227567
+          ],
+          [
+            72.835455,
+            18.9227576
+          ],
+          [
+            72.8354561,
+            18.9227585
+          ],
+          [
+            72.8354572,
+            18.9227594
+          ],
+          [
+            72.8354583,
+            18.9227604
+          ],
+          [
+            72.8354594,
+            18.9227613
+          ],
+          [
+            72.8354605,
+            18.9227622
+          ],
+          [
+            72.8354616,
+            18.9227631
+          ],
+          [
+            72.8354627,
+            18.922764
+          ],
+          [
+            72.8354638,
+            18.9227649
+          ],
+          [
+            72.8354649,
+            18.9227659
+          ],
+          [
+            72.835466,
+            18.9227668
+          ],
+          [
+            72.8354671,
+            18.9227677
+          ],
+          [
+            72.8354682,
+            18.9227686
+          ],
+          [
+            72.8354693,
+            18.9227695
+          ],
+          [
+            72.8354704,
+            18.9227704
+          ],
+          [
+            72.8354715,
+            18.9227713
+          ],
+          [
+            72.8354726,
+            18.9227723
+          ],
+          [
+            72.8354737,
+            18.9227732
+          ],
+          [
+            72.8354748,
+            18.9227741
+          ],
+          [
+            72.8354759,
+            18.922775
+          ],
+          [
+            72.835477,
+            18.9227759
+          ],
+          [
+            72.8354781,
+            18.9227768
+          ],
+          [
+            72.8354792,
+            18.9227777
+          ],
+          [
+            72.8354804,
+            18.9227787
+          ],
+          [
+            72.8354815,
+            18.9227796
+          ],
+          [
+            72.8354826,
+            18.9227805
+          ],
+          [
+            72.8354837,
+            18.9227814
+          ],
+          [
+            72.8354848,
+            18.9227823
+          ],
+          [
+            72.8354859,
+            18.9227832
+          ],
+          [
+            72.835487,
+            18.9227841
+          ],
+          [
+            72.8354881,
+            18.922785
+          ],
+          [
+            72.8354892,
+            18.9227859
+          ],
+          [
+            72.8354903,
+            18.9227869
+          ],
+          [
+            72.8354914,
+            18.9227878
+          ],
+          [
+            72.8354925,
+            18.9227887
+          ],
+          [
+            72.8354936,
+            18.9227896
+          ],
+          [
+            72.8354947,
+            18.9227905
+          ],
+          [
+            72.8354959,
+            18.9227914
+          ],
+          [
+            72.835497,
+            18.9227923
+          ],
+          [
+            72.8354981,
+            18.9227932
+          ],
+          [
+            72.8354992,
+            18.9227941
+          ],
+          [
+            72.8355003,
+            18.922795
+          ],
+          [
+            72.8355014,
+            18.9227959
+          ],
+          [
+            72.8355025,
+            18.9227968
+          ],
+          [
+            72.8355036,
+            18.9227977
+          ],
+          [
+            72.8355047,
+            18.9227986
+          ],
+          [
+            72.8355058,
+            18.9227996
+          ],
+          [
+            72.835507,
+            18.9228005
+          ],
+          [
+            72.8355081,
+            18.9228014
+          ],
+          [
+            72.8355092,
+            18.9228023
+          ],
+          [
+            72.8355103,
+            18.9228032
+          ],
+          [
+            72.8355114,
+            18.9228041
+          ],
+          [
+            72.8355125,
+            18.922805
+          ],
+          [
+            72.8355136,
+            18.9228059
+          ],
+          [
+            72.8355147,
+            18.9228068
+          ],
+          [
+            72.8355159,
+            18.9228077
+          ],
+          [
+            72.835517,
+            18.9228086
+          ],
+          [
+            72.8355181,
+            18.9228095
+          ],
+          [
+            72.8355192,
+            18.9228104
+          ],
+          [
+            72.8355203,
+            18.9228113
+          ],
+          [
+            72.8355214,
+            18.9228122
+          ],
+          [
+            72.8355225,
+            18.9228131
+          ],
+          [
+            72.8355236,
+            18.922814
+          ],
+          [
+            72.8355247,
+            18.9228149
+          ],
+          [
+            72.8355258,
+            18.9228159
+          ],
+          [
+            72.8355269,
+            18.9228168
+          ],
+          [
+            72.8355281,
+            18.9228177
+          ],
+          [
+            72.8355292,
+            18.9228186
+          ],
+          [
+            72.8355303,
+            18.9228195
+          ],
+          [
+            72.8355314,
+            18.9228204
+          ],
+          [
+            72.8355325,
+            18.9228213
+          ],
+          [
+            72.8355336,
+            18.9228222
+          ],
+          [
+            72.8355347,
+            18.9228232
+          ],
+          [
+            72.8355358,
+            18.9228241
+          ],
+          [
+            72.8355369,
+            18.922825
+          ],
+          [
+            72.835538,
+            18.9228259
+          ],
+          [
+            72.8355391,
+            18.9228268
+          ],
+          [
+            72.8355402,
+            18.9228277
+          ],
+          [
+            72.8355413,
+            18.9228286
+          ],
+          [
+            72.8355424,
+            18.9228295
+          ],
+          [
+            72.8355435,
+            18.9228304
+          ],
+          [
+            72.8355446,
+            18.9228313
+          ],
+          [
+            72.8355458,
+            18.9228323
+          ],
+          [
+            72.8355469,
+            18.9228332
+          ],
+          [
+            72.835548,
+            18.9228341
+          ],
+          [
+            72.8355491,
+            18.922835
+          ],
+          [
+            72.8355502,
+            18.9228359
+          ],
+          [
+            72.8355513,
+            18.9228368
+          ],
+          [
+            72.8355524,
+            18.9228377
+          ],
+          [
+            72.8355535,
+            18.9228386
+          ],
+          [
+            72.8355546,
+            18.9228395
+          ],
+          [
+            72.8355557,
+            18.9228404
+          ],
+          [
+            72.8355568,
+            18.9228414
+          ],
+          [
+            72.8355579,
+            18.9228423
+          ],
+          [
+            72.835559,
+            18.9228432
+          ],
+          [
+            72.8355602,
+            18.9228441
+          ],
+          [
+            72.8355613,
+            18.922845
+          ],
+          [
+            72.8355624,
+            18.9228459
+          ],
+          [
+            72.8355635,
+            18.9228468
+          ],
+          [
+            72.8355646,
+            18.9228477
+          ],
+          [
+            72.8355657,
+            18.9228486
+          ],
+          [
+            72.8355668,
+            18.9228495
+          ],
+          [
+            72.8355679,
+            18.9228504
+          ],
+          [
+            72.835569,
+            18.9228513
+          ],
+          [
+            72.8355701,
+            18.9228523
+          ],
+          [
+            72.8355712,
+            18.9228532
+          ],
+          [
+            72.8355723,
+            18.9228541
+          ],
+          [
+            72.8355734,
+            18.922855
+          ],
+          [
+            72.8355745,
+            18.9228559
+          ],
+          [
+            72.8355756,
+            18.9228568
+          ],
+          [
+            72.8355768,
+            18.9228577
+          ],
+          [
+            72.8355779,
+            18.9228586
+          ],
+          [
+            72.835579,
+            18.9228596
+          ],
+          [
+            72.8355801,
+            18.9228605
+          ],
+          [
+            72.8355812,
+            18.9228614
+          ],
+          [
+            72.8355823,
+            18.9228623
+          ],
+          [
+            72.8355834,
+            18.9228632
+          ],
+          [
+            72.8355845,
+            18.9228641
+          ],
+          [
+            72.8355856,
+            18.922865
+          ],
+          [
+            72.8355867,
+            18.9228659
+          ],
+          [
+            72.8355878,
+            18.9228669
+          ],
+          [
+            72.8355889,
+            18.9228678
+          ],
+          [
+            72.83559,
+            18.9228687
+          ],
+          [
+            72.8355911,
+            18.9228696
+          ],
+          [
+            72.8355922,
+            18.9228705
+          ],
+          [
+            72.8355934,
+            18.9228714
+          ],
+          [
+            72.8355945,
+            18.9228723
+          ],
+          [
+            72.8355956,
+            18.9228732
+          ],
+          [
+            72.8355967,
+            18.9228741
+          ],
+          [
+            72.8355978,
+            18.922875
+          ],
+          [
+            72.8355989,
+            18.9228759
+          ],
+          [
+            72.8356,
+            18.9228768
+          ],
+          [
+            72.8356011,
+            18.9228778
+          ],
+          [
+            72.8356022,
+            18.9228787
+          ],
+          [
+            72.8356033,
+            18.9228796
+          ],
+          [
+            72.8356044,
+            18.9228805
+          ],
+          [
+            72.8356055,
+            18.9228814
+          ],
+          [
+            72.8356066,
+            18.9228823
+          ],
+          [
+            72.8356077,
+            18.9228832
+          ],
+          [
+            72.8356088,
+            18.9228842
+          ],
+          [
+            72.8356099,
+            18.9228851
+          ],
+          [
+            72.835611,
+            18.922886
+          ],
+          [
+            72.8356121,
+            18.9228869
+          ],
+          [
+            72.8356133,
+            18.9228878
+          ],
+          [
+            72.8356144,
+            18.9228887
+          ],
+          [
+            72.8356155,
+            18.9228896
+          ],
+          [
+            72.8356166,
+            18.9228905
+          ],
+          [
+            72.8356177,
+            18.9228915
+          ],
+          [
+            72.8356188,
+            18.9228924
+          ],
+          [
+            72.8356199,
+            18.9228933
+          ],
+          [
+            72.835621,
+            18.9228942
+          ],
+          [
+            72.8356221,
+            18.9228951
+          ],
+          [
+            72.8356232,
+            18.9228961
+          ],
+          [
+            72.8356243,
+            18.922897
+          ],
+          [
+            72.8356254,
+            18.9228979
+          ],
+          [
+            72.8356264,
+            18.9228988
+          ],
+          [
+            72.8356275,
+            18.9228997
+          ],
+          [
+            72.8356286,
+            18.9229007
+          ],
+          [
+            72.8356297,
+            18.9229016
+          ],
+          [
+            72.8356308,
+            18.9229025
+          ],
+          [
+            72.8356319,
+            18.9229034
+          ],
+          [
+            72.835633,
+            18.9229044
+          ],
+          [
+            72.8356341,
+            18.9229053
+          ],
+          [
+            72.8356352,
+            18.9229062
+          ],
+          [
+            72.8356363,
+            18.9229071
+          ],
+          [
+            72.8356374,
+            18.9229081
+          ],
+          [
+            72.8356385,
+            18.922909
+          ],
+          [
+            72.8356395,
+            18.9229099
+          ],
+          [
+            72.8356406,
+            18.9229109
+          ],
+          [
+            72.8356417,
+            18.9229118
+          ],
+          [
+            72.8356428,
+            18.9229127
+          ],
+          [
+            72.8356439,
+            18.9229137
+          ],
+          [
+            72.835645,
+            18.9229146
+          ],
+          [
+            72.8356461,
+            18.9229155
+          ],
+          [
+            72.8356472,
+            18.9229165
+          ],
+          [
+            72.8356482,
+            18.9229174
+          ],
+          [
+            72.8356493,
+            18.9229183
+          ],
+          [
+            72.8356504,
+            18.9229193
+          ],
+          [
+            72.8356515,
+            18.9229202
+          ],
+          [
+            72.8356526,
+            18.9229211
+          ],
+          [
+            72.8356537,
+            18.9229221
+          ],
+          [
+            72.8356547,
+            18.922923
+          ],
+          [
+            72.8356558,
+            18.9229239
+          ],
+          [
+            72.8356569,
+            18.9229249
+          ],
+          [
+            72.835658,
+            18.9229258
+          ],
+          [
+            72.8356591,
+            18.9229268
+          ],
+          [
+            72.8356601,
+            18.9229277
+          ],
+          [
+            72.8356612,
+            18.9229286
+          ],
+          [
+            72.8356623,
+            18.9229296
+          ],
+          [
+            72.8356634,
+            18.9229305
+          ],
+          [
+            72.8356644,
+            18.9229315
+          ],
+          [
+            72.8356655,
+            18.9229324
+          ],
+          [
+            72.8356666,
+            18.9229334
+          ],
+          [
+            72.8356677,
+            18.9229343
+          ],
+          [
+            72.8356687,
+            18.9229353
+          ],
+          [
+            72.8356698,
+            18.9229362
+          ],
+          [
+            72.8356709,
+            18.9229371
+          ],
+          [
+            72.835672,
+            18.9229381
+          ],
+          [
+            72.835673,
+            18.922939
+          ],
+          [
+            72.8356741,
+            18.92294
+          ],
+          [
+            72.8356752,
+            18.9229409
+          ],
+          [
+            72.8356763,
+            18.9229418
+          ],
+          [
+            72.8356773,
+            18.9229428
+          ],
+          [
+            72.8356784,
+            18.9229437
+          ],
+          [
+            72.8356795,
+            18.9229447
+          ],
+          [
+            72.8356806,
+            18.9229456
+          ],
+          [
+            72.8356816,
+            18.9229466
+          ],
+          [
+            72.8356827,
+            18.9229475
+          ],
+          [
+            72.8356838,
+            18.9229484
+          ],
+          [
+            72.8356849,
+            18.9229494
+          ],
+          [
+            72.835686,
+            18.9229503
+          ],
+          [
+            72.835687,
+            18.9229513
+          ],
+          [
+            72.8356881,
+            18.9229522
+          ],
+          [
+            72.8356892,
+            18.9229532
+          ],
+          [
+            72.8356903,
+            18.9229541
+          ],
+          [
+            72.8356913,
+            18.922955
+          ],
+          [
+            72.8356924,
+            18.922956
+          ],
+          [
+            72.8356935,
+            18.9229569
+          ],
+          [
+            72.8356946,
+            18.9229579
+          ],
+          [
+            72.8356956,
+            18.9229588
+          ],
+          [
+            72.8356967,
+            18.9229598
+          ],
+          [
+            72.8356978,
+            18.9229607
+          ],
+          [
+            72.8356989,
+            18.9229616
+          ],
+          [
+            72.8356999,
+            18.9229626
+          ],
+          [
+            72.835701,
+            18.9229635
+          ],
+          [
+            72.8357021,
+            18.9229645
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Survey Mission Track",
+        "total_pings": 1024,
+        "stroke": "#00ffcc",
+        "stroke-width": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{"timestamp": 1787677622.680802, "detection_id": "test_det", "class_name": "ghost_net", "action": "confirmed", "notes": "Verified by marine biologist", "bbox": {}}
+{"timestamp": 1787682581.695557, "detection_id": "384517e0", "class_name": "pipe_cylinder", "action": "confirmed", "notes": "", "bbox": {}}
+{"timestamp": 1787682587.9940102, "detection_id": "f7e75b07", "class_name": "ghost_net", "action": "confirmed", "notes": "", "bbox": {}}
+{"timestamp": 1787682588.990311, "detection_id": "f7e75b07", "class_name": "ghost_net", "action": "rejected_false_positive", "notes": "", "bbox": {}}
+{"timestamp": 1787682589.9444375, "detection_id": "384517e0", "class_name": "pipe_cylinder", "action": "rejected_false_positive", "notes": "", "bbox": {}}
+{"timestamp": 1787765775.2202523, "detection_id": "test_det", "class_name": "ghost_net", "action": "confirmed", "notes": "Verified by marine biologist", "bbox": {}}
+{"timestamp": 1787766012.0295753, "detection_id": "test_det", "class_name": "ghost_net", "action": "confirmed", "notes": "Verified by marine biologist", "bbox": {}}
+{"timestamp": 1787770854.9109807, "detection_id": "e2c0a9eb", "class_name": "container", "action": "confirmed", "notes": "", "bbox": {}}
+{"timestamp": 1787770863.9190042, "detection_id": "ebd1d818", "class_name": "container", "action": "rejected_false_positive", "notes": "", "bbox": {}}
+{"timestamp": 1787811416.952097, "detection_id": "test_det", "class_name": "ghost_net", "action": "confirmed", "notes": "Verified by marine biologist", "bbox": {}}
+{"timestamp": 1787819673.4119306, "detection_id": "test_det", "class_name": "ghost_net", "action": "confirmed", "notes": "Verified by marine biologist", "bbox": {}}
+{"timestamp": 1787820080.4611585, "detection_id": "test_det", "class_name": "ghost_net", "action": "confirmed", "notes": "Verified by marine biologist", "bbox": {}}
+{"timestamp": 1787820756.0106826, "detection_id": "test_det", "class_name": "ghost_net", "action": "confirmed", "notes": "Verified by marine biologist", "bbox": {}}
+{"timestamp": 1787820857.793358, "detection_id": "test_det", "class_name": "ghost_net", "action": "confirmed", "notes": "Verified by marine biologist", "bbox": {}}
+{"timestamp": 1787821474.4834719, "detection_id": "test_det", "class_name": "ghost_net", "action": "confirmed", "notes": "Verified by marine biologist", "bbox": {}}
+{"timestamp": 1787822151.8285754, "detection_id": "test_det", "class_name": "ghost_net", "action": "confirmed", "notes": "Verified by marine biologist", "bbox": {}}
