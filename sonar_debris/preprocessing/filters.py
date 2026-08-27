@@ -44,8 +44,8 @@ def adaptive_lee_filter(
 
     # Estimate noise variance from homogeneous dark/low-var regions if not provided
     if noise_variance is None:
-        # 10th percentile of local variance as baseline speckle variance
-        noise_variance = float(np.percentile(var, 15)) + 1e-6
+        # Fast strided 15th percentile of local variance
+        noise_variance = float(np.percentile(var[::4, ::4], 15)) + 1e-6
 
     # Weighting coefficient
     weight = np.maximum(0.0, (var - noise_variance) / (var + 1e-6))

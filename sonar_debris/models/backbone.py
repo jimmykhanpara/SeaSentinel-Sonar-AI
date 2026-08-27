@@ -217,7 +217,7 @@ class PyTorchSonarDetector(BaseSonarDetector):
         # Tensor conversion (1, 1, H, W)
         tensor_in = torch.from_numpy(tile_f).unsqueeze(0).unsqueeze(0).to(self.device)
 
-        with torch.no_grad():
+        with torch.inference_mode():
             cls_logits, box_preds, obj_logits, mask_logits = self.model(tensor_in)
             cls_probs = torch.sigmoid(cls_logits).squeeze(0).cpu().numpy()  # (C, H/4, W/4)
             box_offsets = box_preds.squeeze(0).cpu().numpy()               # (4, H/4, W/4)
@@ -256,15 +256,13 @@ class PyTorchSonarDetector(BaseSonarDetector):
         Extracts candidate bounding boxes based on co-located acoustic highlight + shadow pairs.
         """
         h, w = tile.shape
-        med = float(np.median(tile))
-        std = float(np.std(tile)) + 1e-5
 
-        # Highlight threshold: robust top percentile (acoustic specular return)
-        highlight_thresh = max(0.35, float(np.percentile(tile, 95)))
+        # Fast strided percentiles
+        sub_sample = tile[::2, ::2]
+        highlight_thresh = max(0.35, float(np.percentile(sub_sample, 95)))
         highlight_mask = tile > highlight_thresh
 
-        # Shadow threshold: bottom 12th percentile (acoustic occlusion)
-        shadow_thresh = min(0.20, float(np.percentile(tile, 12)))
+        shadow_thresh = min(0.20, float(np.percentile(sub_sample, 12)))
         shadow_mask = tile < shadow_thresh
 
         # Connected component analysis for highlights
