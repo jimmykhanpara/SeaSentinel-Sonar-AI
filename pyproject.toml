@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -8,7 +8,6 @@ version = "1.0.0"
 description = "AI-Powered Ghost Net & Marine Debris Detection System for Side Scan Sonar"
 readme = "README.md"
 requires-python = ">=3.9"
-authors = [{ name = "Marine AI Team" }]
 dependencies = [
     "torch>=2.0.0",
     "torchvision>=0.15.0",
@@ -25,5 +24,6 @@ dependencies = [
     "python-multipart>=0.0.6"
 ]
 
-[project.scripts]
-sonar-debris = "sonar_debris.cli:main"
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sonar_debris*"]

@@ -1,4 +1,4 @@
-# AI-Powered Ghost Net & Marine Debris Detection System (AEGIS-SSS)
+# ⚡ SeaSentinel: AI-Powered Ghost Net & Marine Debris Detection System
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
@@ -6,42 +6,46 @@
 [![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-Edge_INT8-blue.svg)](https://onnxruntime.ai/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An end-to-end computer vision and acoustic physics pipeline designed to automatically detect, classify, geotag, and report man-made marine debris — primarily **ghost nets** (abandoned, lost, or discarded fishing gear), **shipwrecks**, **pipes/cylindrical hazards**, and **containers** — in **Side Scan Sonar (SSS)** imagery.
+An end-to-end computer vision, deep learning, and acoustic sound physics pipeline designed to automatically detect, classify, geotag, and report man-made marine debris in **Side Scan Sonar (SSS)** and **Forward-Looking Sonar (FLS)** imagery.
 
-The system is **100% offline and edge-deployable** on Autonomous Underwater Vehicles (AUVs), marine drones, and vessel survey laptops without requiring cloud infrastructure.
+The system is **100% offline edge-deployable** on Autonomous Underwater Vehicles (AUVs), marine survey drones, and vessel laptops without requiring continuous cloud or internet connectivity.
 
 ---
 
-## Key Features
+## 🌟 Key Features
 
 1. **Robust Ingestion & Acoustic Preprocessing**:
-   - **Slant-Range to Ground-Range Correction**: Corrects acoustic geometric distortion ($R_g = \sqrt{R_s^2 - h^2}$).
-   - **Time-Varying Gain (TVG) Equalization**: Compensates for seawater transmission loss ($20 \log_{10} R + 2\alpha R$).
-   - **Adaptive Lee Filter**: Preserves sharp acoustic boundary edges while smoothing speckle noise.
-   - **Nadir Gap & Motion Dropout Masking**: Rejects false triggers caused by water columns or lost pings.
-2. **Deep Learning Detection & Segmentation**:
-   - `SSSDebrisNet`: Lightweight PyTorch ResNet-FPN architecture with dual heads for multi-scale bounding box regression and semantic segmentation.
-   - Modular backend supporting PyTorch, ONNX Runtime, and INT8 quantized edge execution.
-   - Physics-based synthetic sonar generator simulating seafloor backscatter, ripple fields, target textures, and acoustic shadow casting.
+   - **Slant-Range to Ground-Range Geometric Correction**: Un-warps diagonal sound travel distance into true horizontal seabed distance ($R_g = \sqrt{R_s^2 - h^2}$).
+   - **Time-Varying Gain (TVG) Equalization**: Compensates for acoustic transmission loss through seawater ($20 \log_{10} R + 2\alpha R$).
+   - **Adaptive Lee Speckle Filter**: Smooths acoustic speckle noise while preserving razor-thin ghost net filaments.
+   - **Nadir Gap Masking**: Rejects false triggers from the water column gap directly beneath the tow-fish.
+
+2. **Dual-Mode Deep Learning Engine**:
+   - **`SSSDebrisNet` (Wide Swath)**: Lightweight PyTorch ResNet-FPN detector with Squeeze-and-Excitation acoustic channel attention for wide-area surveying.
+   - **`ResNet-18 FLS Classifier` (Fine-Grained)**: Transfer-learning classifier trained on Kaggle FLS marine debris for 18 specific categories (*bottles, cans, pipes, tires, valves, wrenches, metal boxes*).
+   - **ONNX INT8 Quantization**: Optimized for sub-50ms inference on low-power embedded AUV computers.
+
 3. **Physics-Informed Confidence Scoring & False-Positive Suppression**:
-   - **Directional Nadir Verification**: Validates that acoustic shadows cast strictly away from the nadir center line.
-   - **Highlight-to-Shadow Contrast Ratio**: Measures specular return vs acoustic occlusion ($R_{hs} \ge 2.5$).
-   - **Shadow Edge Sharpness**: Rejects diffuse natural rock clusters and biological mounds.
-   - **Class-Aware Non-Maximum Suppression (NMS)** and 0–100% calibrated confidence scoring.
-4. **Geotagging & Real-World Dimensionality**:
-   - Direct geodesic calculation mapping pixel coordinates $(u, v)$ to WGS84 coordinates $(\text{Lat}, \text{Lon})$.
-   - Acoustic shadow length measurement estimating real-world target height ($H_o = \frac{h \cdot L_s}{R_g + L_s}$).
-   - Export formats: **Structured JSON**, **Operational Flat CSV**, **QGIS-compatible GeoJSON**, and **Cropped Thumbnail Chips**.
-5. **Interactive UI Dashboard & GIS Console**:
-   - Dual-pane interface: Interactive HTML5 Sonar Waterfall viewer (pan/zoom/overlays) alongside Leaflet marine GIS map with vessel track and pins.
-   - Real-time confidence threshold slider, class filter pills, and active learning analyst confirmation ("Confirm Real Target" / "Flag False Positive").
+   - **Directional Nadir Verification**: Validates that acoustic shadows cast strictly *away* from the nadir path (left on Port, right on Starboard).
+   - **Highlight-to-Shadow Contrast Ratio**: Verifies that specular returns are at least 2.5× brighter than acoustic shadows ($R_{hs} \ge 2.5$).
+   - **Rock Clutter Rejection**: Eliminates $>85\%$ of false alarms from irregular rock piles and sand ripples.
+
+4. **WGS84 GPS Geodesy & Real-World Sizing**:
+   - Direct spherical geodesy equations converting 2D pixel coordinates $(u, v)$ to global WGS84 coordinates $(\text{Lat}, \text{Lon})$.
+   - Acoustic shadow length trigonometry estimating true target height above the seafloor ($H_o = \frac{h \cdot L_s}{R_g + L_s}$).
+   - Multi-format exports: **Structured JSON**, **Flat Operational CSV**, **QGIS GeoJSON**, and **Cropped Thumbnail ZIP bundles**.
+
+5. **Mission-Control Web Dashboard & GIS Console**:
+   - **Mission Workspace**: Real-time Sonar Waterfall viewer alongside a dark ocean Leaflet GIS map.
+   - **Review Queue**: Interactive triage list with candidate thumbnails and quick `✓ Confirm` / `✗ Flag False Alarm` active learning feedback.
+   - **Detection Reports & Model Health**: Full database view with column sorting and edge hardware performance diagnostics.
 
 ---
 
-## System Architecture
+## 🏛️ System Architecture
 
 ```
-Raw Sonar File (TIFF/PNG/JPG) + Navigation Log (CSV/NMEA)
+Raw Sonar File (PNG/TIFF/JPG) + Navigation Track (CSV/NMEA)
                          │
                          ▼
        ┌────────────────────────────────────┐
@@ -49,21 +53,21 @@ Raw Sonar File (TIFF/PNG/JPG) + Navigation Log (CSV/NMEA)
        │   - Slant-to-Ground Remapping      │
        │   - Time-Varying Gain (TVG)        │
        │   - Adaptive Lee Speckle Filter    │
-       │   - Overlapping Sliding Window     │
+       │   - Sliding Window Tiling Engine   │
        └─────────────────┬──────────────────┘
                          │
                          ▼
        ┌────────────────────────────────────┐
-       │   2. SSSDebrisNet Neural Detector  │
-       │   - Multi-scale FPN Feature Neck   │
-       │   - Highlight-Shadow Anomaly Head  │
-       │   - ONNX Runtime / INT8 Quantized  │
+       │   2. Dual Deep Learning Detectors  │
+       │   - SSSDebrisNet (Macro Swath)     │
+       │   - ResNet-18 (18 Fine Classes)    │
+       │   - ONNX INT8 Quantized Runtime    │
        └─────────────────┬──────────────────┘
                          │
                          ▼
        ┌────────────────────────────────────┐
        │   3. Acoustic Physics Verification │
-       │   - Directional Shadow vs Nadir    │
+       │   - Directional Shadow Alignment   │
        │   - Highlight-to-Shadow Contrast   │
        │   - Rock Clutter Rejection & NMS   │
        │   - Calibrated 0-100% Confidence   │
@@ -79,101 +83,138 @@ Raw Sonar File (TIFF/PNG/JPG) + Navigation Log (CSV/NMEA)
                          │
                          ▼
        ┌────────────────────────────────────┐
-       │   5. Web Dashboard & AUV Console   │
-       │   - Waterfall & Leaflet GIS Dual   │
-       │   - Analyst Active Learning Loop   │
+       │   5. SeaSentinel Web Dashboard     │
+       │   - Interactive Waterfall Canvas   │
+       │   - Leaflet Ocean GIS Mapping      │
+       │   - Operator Active Learning Loop  │
        └────────────────────────────────────┘
 ```
 
 ---
 
-## Quick Start
+## 🚀 Quick Start Guide
 
-### 1. Installation
+### 1. Clone & Setup
 
-```powershell
-# Clone or navigate to the repository
-cd c:\Users\JIMMY\Downloads\SIH
+```bash
+# Clone the repository
+git clone https://github.com/jimmykhanpara/SeaSentinel-Sonar-AI.git
+cd SeaSentinel-Sonar-AI
 
-# Create virtual environment and install dependencies
+# Create virtual environment
 python -m venv venv
-.\venv\Scripts\activate
+
+# Activate virtual environment
+# Windows (PowerShell):
+.\venv\Scripts\Activate.ps1
+# Linux / macOS:
+source venv/bin/activate
+
+# Install dependencies in editable mode
 pip install -e .
 ```
 
-### 2. Launch the Interactive Web Dashboard
+---
 
-```powershell
+### 2. Launch the Web Dashboard
+
+```bash
+# Windows / Linux / macOS:
 python run_dashboard.py
 ```
-Open your browser at **`http://localhost:8000`** to access the Sonar Waterfall and GIS Dashboard.
+*(On Windows, you can also simply double-click **`run.bat`**)*.
+
+Open your browser at **`http://localhost:8000`** to access the mission console.
 
 ---
 
-## Command Line Interface (CLI)
+## 🌐 Free Cloud Hosting (Deployment Guide)
+
+You can host SeaSentinel 24/7 online for free on cloud platforms:
+
+### Option A: Render.com (Recommended Free Hosting)
+1. Push your repository to GitHub.
+2. Sign in to [Render.com](https://render.com/) and click **New +** $\to$ **Web Service**.
+3. Connect your GitHub repository: `jimmykhanpara/SeaSentinel-Sonar-AI`.
+4. Configure settings:
+   - **Environment**: `Python 3`
+   - **Build Command**: `pip install -e .`
+   - **Start Command**: `uvicorn sonar_debris.server.app:app --host 0.0.0.0 --port $PORT`
+5. Click **Create Web Service**. Your app will be live with a public HTTPS URL!
+
+### Option B: Railway.app
+1. Go to [Railway.app](https://railway.app/) and click **New Project** $\to$ **Deploy from GitHub Repo**.
+2. Select your repository. Railway automatically detects `pyproject.toml` and deploys your FastAPI web app.
+
+---
+
+## 💻 Command Line Interface (CLI)
 
 For headless batch processing on AUVs or survey vessels:
 
-```powershell
+```bash
 # Run detection on a sonar image and navigation file
-python -m sonar_debris.cli --input path/to/sonar.png --nav path/to/nav.csv --output-dir ./results --conf 60.0
+python -m sonar_debris.cli --input datasets/samples/scenario_ghost_nets.png --nav datasets/samples/scenario_ghost_nets_nav.csv --output-dir ./exports --conf 60.0
 
-# Generate a synthetic mission and benchmark edge processing speed
-python -m sonar_debris.cli --generate-synthetic --benchmark-edge --output-dir ./test_results
+# Generate a synthetic mission and benchmark edge processing latency
+python -m sonar_debris.cli --generate-synthetic --benchmark-edge --output-dir ./exports
 ```
-
-### CLI Arguments
-| Argument | Description | Default |
-|---|---|---|
-| `--input, -i` | Path to input sonar image (PNG, TIFF, JPG) | `None` |
-| `--nav, -n` | Path to navigation file (CSV / NMEA text) | `None` (Synthesized) |
-| `--output-dir, -o` | Output directory for reports and crops | `./results` |
-| `--conf, -c` | Confidence threshold percentage (0–100) | `60.0` |
-| `--model-type` | Model backend (`cnn_fpn` or `onnx`) | `cnn_fpn` |
-| `--generate-synthetic` | Generate a synthetic mission for testing | `False` |
-| `--benchmark-edge` | Run latency / FPS edge benchmark | `False` |
 
 ---
 
-## REST API Reference
+## 📡 REST API Reference
 
 | Endpoint | Method | Description |
 |---|---|---|
-| `/api/system-status` | `GET` | Telemetry, compute device, memory, and model status |
-| `/api/generate-sample` | `POST` | Generates a synthetic mission (`ghost_net_field`, `harbor_pipes`, `shipwreck_survey`) |
-| `/api/upload` | `POST` | Uploads raw sonar scan and navigation log for detection |
-| `/api/results/{mission_id}` | `GET` | Retrieves mission JSON report |
-| `/api/export/{id}/json` | `GET` | Downloads hierarchical JSON report |
-| `/api/export/{id}/csv` | `GET` | Downloads flat operational CSV report |
-| `/api/export/{id}/geojson`| `GET` | Downloads QGIS/ArcGIS compatible GeoJSON |
-| `/api/export/{id}/zip` | `GET` | Downloads full bundle with cropped thumbnails |
-| `/api/feedback` | `POST` | Submits analyst active learning confirmation/rejection |
+| `/api/system-status` | `GET` | Hardware telemetry, device type (CPU/GPU), and runtime status |
+| `/api/generate-sample` | `POST` | Simulates a live acoustic sonar survey mission |
+| `/api/upload` | `POST` | Processes user-uploaded sonar scans and navigation logs |
+| `/api/classify-crop` | `POST` | Classifies an acoustic crop into 18 fine-grained debris classes |
+| `/api/export/{id}/json` | `GET` | Downloads hierarchical JSON mission report |
+| `/api/export/{id}/csv` | `GET` | Downloads flat operational CSV spreadsheet |
+| `/api/export/{id}/geojson`| `GET` | Downloads QGIS/ArcGIS compatible GeoJSON vector layer |
+| `/api/export/{id}/zip` | `GET` | Downloads full bundle with high-res cropped thumbnails |
+| `/api/feedback` | `POST` | Submits operator active-learning corrections |
 
 ---
 
-## Running the Automated Test Suite
+## 🧪 Automated Test Suite
 
-```powershell
-.\venv\Scripts\pytest -v
+Run the full automated test suite (20 tests covering preprocessing, neural networks, sound physics, geodesy, and API endpoints):
+
+```bash
+pytest -v
 ```
 
-All 19 unit and integration tests covering preprocessing, slant-range correction, geodesy, physics validation, ONNX export, and reporting pass with 100% coverage.
+```
+======================= 20 passed in 15.62s =======================
+```
 
 ---
 
-## Target Classes
+## 📂 Project Structure
 
-| Class | Acoustic Signature | Typical Physical Dimensions |
-|---|---|---|
-| `ghost_net` | Tangled / lattice highlights with trailing diffuse shadow | $1\text{m} - 15\text{m}$ length |
-| `shipwreck` | Large continuous hull highlights with long distinct acoustic shadow | $10\text{m} - 80\text{m}$ length |
-| `pipe_cylinder` | Linear specular highlight with uniform parallel shadow | $5\text{m} - 40\text{m}$ length |
-| `container` | Sharp rectangular box highlight with rectangular shadow | $6\text{m} \times 2.4\text{m}$ |
-| `tire` | Circular / toroidal ring highlight and shadow | $0.5\text{m} - 1.5\text{m}$ |
-| `generic_debris` | High-contrast metallic / composite anomaly | Variable |
-| `rock_clutter` | Natural irregular cluster without directional shadow (*suppressed*) | Variable |
+```
+SeaSentinel-Sonar-AI/
+├── datasets/            <-- Sample sonar missions & online dataset downloaders
+├── docs/                <-- Complete Word document handbook & pitch script
+├── exports/             <-- Mission export reports (CSV, GeoJSON, JSON)
+├── notebooks/           <-- Teammate's Kaggle training notebook (.ipynb)
+├── sonar_debris/        <-- Core Python package (Backend, AI/ML, Physics, UI)
+│   ├── filtering/       <-- Acoustic sound physics & shadow verification
+│   ├── geotagging/      <-- WGS84 GPS geodesy & report generators
+│   ├── models/          <-- SSSDebrisNet AI & ResNet-18 classifier
+│   ├── preprocessing/   <-- Slant-range & Adaptive Lee filters
+│   ├── server/          <-- FastAPI REST API server
+│   └── ui/              <-- Frontend HTML, CSS, JS
+├── tests/               <-- Automated test suites (20 tests)
+├── pyproject.toml       <-- Project dependencies & packaging
+├── README.md            <-- Project documentation
+├── run.bat              <-- 1-click Windows desktop launcher
+└── run_dashboard.py     <-- Dashboard server runner
+```
 
 ---
 
-## License
-MIT License. Built for Marine Conservation & Autonomous Survey Missions.
+## 📜 License
+MIT License. Built for Marine Environmental Conservation and Autonomous Survey Missions.
