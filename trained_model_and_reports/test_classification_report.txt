@@ -1,0 +1,24 @@
+                     precision    recall  f1-score   support
+
+ brown-glass-bottle     1.0000    0.9677    0.9836        31
+                can     0.9688    1.0000    0.9841        62
+       drink-carton     0.9697    1.0000    0.9846        64
+       drink-sachet     1.0000    1.0000    1.0000        34
+       glass-bottle     1.0000    0.9861    0.9930        72
+          glass-jar     1.0000    0.9846    0.9922        65
+         large-tire     1.0000    1.0000    1.0000        30
+       metal-bottle     1.0000    0.9412    0.9697        34
+          metal-box     1.0000    1.0000    1.0000        26
+      plastic-bidon     1.0000    1.0000    1.0000        29
+     plastic-bottle     1.0000    1.0000    1.0000        66
+       plastic-pipe     1.0000    1.0000    1.0000        33
+  plastic-propeller     1.0000    1.0000    1.0000        34
+potion-glass-bottle     0.9706    1.0000    0.9851        33
+  rotating-platform     1.0000    1.0000    1.0000        28
+         small-tire     1.0000    1.0000    1.0000        35
+              valve     1.0000    1.0000    1.0000        30
+             wrench     1.0000    1.0000    1.0000        36
+
+           accuracy                         0.9933       742
+          macro avg     0.9949    0.9933    0.9940       742
+       weighted avg     0.9935    0.9933    0.9933       742
