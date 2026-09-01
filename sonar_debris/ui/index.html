@@ -89,10 +89,25 @@
 
           <div class="top-actions">
             <select id="scenarioSelect" class="scenario-select" aria-label="Select Demo Mission">
-              <option value="ghost_net_field">Scenario: Coastal Ghost Nets</option>
-              <option value="shipwreck_survey">Scenario: Deepwater Shipwrecks</option>
-              <option value="harbor_pipes">Scenario: Harbor Pipes & Hazards</option>
-              <option value="mixed_debris">Scenario: Mixed Hazards & Clutter</option>
+              <optgroup label="Acoustic Simulations">
+                <option value="ghost_net_field">Coastal Ghost Nets</option>
+                <option value="shipwreck_survey">Deepwater Shipwrecks</option>
+                <option value="harbor_pipes">Harbor Pipes & Hazards</option>
+                <option value="mixed_debris">Mixed Hazards & Clutter</option>
+                <option value="rocky_clutter_challenge">Rocky Clutter Challenge</option>
+              </optgroup>
+              <optgroup label="High-Resolution Sonar Missions">
+                <option value="survey_01_ghost_net_drift_zone">Survey 01: Ghost Net Drift Zone</option>
+                <option value="survey_02_harbor_subsea_pipeline">Survey 02: Subsea Oil Pipeline</option>
+                <option value="survey_03_historical_shipwreck_field">Survey 03: Historical Shipwreck Field</option>
+                <option value="survey_04_coastal_cargo_containers">Survey 04: Coastal Cargo Containers</option>
+                <option value="survey_05_shallow_bay_trawler_nets">Survey 05: Shallow Bay Trawler Nets</option>
+                <option value="survey_06_coral_reef_mixed_debris">Survey 06: Coral Reef Mixed Debris</option>
+                <option value="survey_07_rocky_trench_navigation">Survey 07: Rocky Trench Navigation</option>
+                <option value="survey_08_estuary_turbidity_scan">Survey 08: Estuary Turbidity Scan</option>
+                <option value="survey_09_offshore_windfarm_cables">Survey 09: Offshore Windfarm Cables</option>
+                <option value="survey_10_deepwater_salvage_target">Survey 10: Deepwater Salvage Target</option>
+              </optgroup>
             </select>
             <button id="btnLoadDemo" class="btn btn-outline-teal">
               Load demo survey

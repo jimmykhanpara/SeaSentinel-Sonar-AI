@@ -15,9 +15,15 @@ ENV/
 .coverage
 htmlcov/
 
-# Temporary Session Storage
-sonar_debris/storage/
+# Temporary Session Storage & Outputs
+sonar_debris/storage/*
+!sonar_debris/storage/.gitkeep
+
+exports/*
+!exports/.gitkeep
+
 *.log
+*.tmp
 
 # IDEs
 .vscode/

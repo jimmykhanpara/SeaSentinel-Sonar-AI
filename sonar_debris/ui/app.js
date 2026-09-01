@@ -294,10 +294,20 @@ async function runScenario(scenario) {
   setLoadingState(true);
   try {
     const res = await fetch(`/api/generate-sample?scenario=${scenario}&conf_threshold=${confThreshold}`, { method: "POST" });
+    if (!res.ok) {
+      let errDetail = `Server Error (${res.status})`;
+      try {
+        const errJson = await res.json();
+        errDetail = errJson.detail || errDetail;
+      } catch (e) {
+        errDetail = await res.text();
+      }
+      throw new Error(errDetail);
+    }
     const data = await res.json();
     loadMissionData(data.mission_id, data.report);
   } catch (err) {
-    console.error(err);
+    alert("Error loading demo scenario: " + err.message);
   } finally {
     setLoadingState(false);
   }

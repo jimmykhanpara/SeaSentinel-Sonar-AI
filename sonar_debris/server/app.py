@@ -100,43 +100,65 @@ def generate_sample_mission(
     mission_folder = os.path.join(STORAGE_DIR, m_id)
     os.makedirs(mission_folder, exist_ok=True)
 
-    # Configure scenario
-    include_nets = True
-    include_wrecks = scenario in ["shipwreck_survey", "mixed_debris"]
-    include_pipes = scenario in ["harbor_pipes", "mixed_debris"]
-    include_clutter = scenario in ["rocky_clutter_challenge", "mixed_debris"]
+    # Check if pre-recorded test survey exists in datasets/test_surveys or datasets/samples
+    test_surveys_dir = os.path.join(BASE_DIR, "datasets", "test_surveys")
+    samples_dir = os.path.join(BASE_DIR, "datasets", "samples")
+    
+    selected_img_path = None
+    selected_nav_path = None
 
-    if scenario == "ghost_net_field":
+    for candidate_dir in [test_surveys_dir, samples_dir]:
+        cand_img = os.path.join(candidate_dir, f"{scenario}.png")
+        if os.path.exists(cand_img):
+            selected_img_path = cand_img
+            cand_nav = os.path.join(candidate_dir, f"{scenario}_nav.csv")
+            if os.path.exists(cand_nav):
+                selected_nav_path = cand_nav
+            break
+
+    if selected_img_path is not None:
+        raw_pil = Image.open(selected_img_path).convert("L")
+        sonar_img = np.array(raw_pil, dtype=np.float32) / 255.0
+        gt_targets = []
+        nav_track = []
+    else:
+        # Configure synthetic scenario
         include_nets = True
-        include_wrecks = False
-        include_pipes = False
-    elif scenario == "shipwreck_survey":
-        include_nets = False
-        include_wrecks = True
-        include_pipes = True
-    elif scenario == "harbor_pipes":
-        include_nets = True
-        include_wrecks = False
-        include_pipes = True
+        include_wrecks = scenario in ["shipwreck_survey", "mixed_debris"]
+        include_pipes = scenario in ["harbor_pipes", "mixed_debris"]
+        include_clutter = scenario in ["rocky_clutter_challenge", "mixed_debris"]
 
-    gen = SyntheticSonarGenerator(
-        image_width=1024,
-        image_height=1024,
-        max_slant_range_m=50.0,
-        altitude_m=10.0,
-        seed=int(time.time()) % 100000
-    )
+        if scenario == "ghost_net_field":
+            include_nets = True
+            include_wrecks = False
+            include_pipes = False
+        elif scenario == "shipwreck_survey":
+            include_nets = False
+            include_wrecks = True
+            include_pipes = True
+        elif scenario == "harbor_pipes":
+            include_nets = True
+            include_wrecks = False
+            include_pipes = True
 
-    sonar_img, gt_targets, nav_track = gen.generate_mission(
-        num_targets=num_targets,
-        include_ghost_nets=include_nets,
-        include_wrecks=include_wrecks,
-        include_pipes=include_pipes,
-        include_rock_clutter=include_clutter,
-        start_lat=18.9220 + np.random.uniform(-0.02, 0.02),
-        start_lon=72.8346 + np.random.uniform(-0.02, 0.02),
-        heading_deg=float(np.random.choice([30.0, 45.0, 90.0, 135.0, 210.0]))
-    )
+        gen = SyntheticSonarGenerator(
+            image_width=1024,
+            image_height=1024,
+            max_slant_range_m=50.0,
+            altitude_m=10.0,
+            seed=int(time.time()) % 100000
+        )
+
+        sonar_img, gt_targets, nav_track = gen.generate_mission(
+            num_targets=num_targets,
+            include_ghost_nets=include_nets,
+            include_wrecks=include_wrecks,
+            include_pipes=include_pipes,
+            include_rock_clutter=include_clutter,
+            start_lat=18.9220 + np.random.uniform(-0.02, 0.02),
+            start_lon=72.8346 + np.random.uniform(-0.02, 0.02),
+            heading_deg=float(np.random.choice([30.0, 45.0, 90.0, 135.0, 210.0]))
+        )
 
     # Save raw image
     raw_img_path = os.path.join(mission_folder, "raw_sonar.png")
@@ -151,13 +173,14 @@ def generate_sample_mission(
     pipeline = SonarDebrisPipeline(config=config)
     report = pipeline.run(
         sonar_input=sonar_img,
-        nav_input=None,
+        nav_input=selected_nav_path,
         mission_id=m_id,
         survey_name=f"Survey: {scenario.replace('_', ' ').title()}",
         output_dir=mission_folder
     )
-    # Set nav track explicitly from generator
-    report.nav_track = nav_track
+    # Set nav track from generator if synthetic, otherwise keep pipeline's parsed nav track
+    if nav_track:
+        report.nav_track = nav_track
 
     # Annotated mosaic
     annotated = SonarReporter.generate_annotated_mosaic(sonar_img, report.detections)
@@ -393,7 +416,14 @@ if os.path.exists(UI_DIR):
     app.mount("/static", StaticFiles(directory=UI_DIR), name="static")
 
 
+@app.get("/healthz")
+def health_check():
+    """Liveness probe for cloud deployments and local readiness."""
+    return {"status": "healthy", "service": "SeaSentinel"}
+
+
 @app.get("/", response_class=HTMLResponse)
+@app.get("/index.html", response_class=HTMLResponse)
 def serve_ui():
     index_path = os.path.join(UI_DIR, "index.html")
     if os.path.exists(index_path):

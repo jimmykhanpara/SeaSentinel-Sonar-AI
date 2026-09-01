@@ -175,11 +175,18 @@ class ResNet18DebrisClassifier(nn.Module):
         return top_class, top_conf, all_probs
 
 
+_CACHED_CLASSIFIER: Optional[nn.Module] = None
+
+
 def load_best_classifier(weights_path: Optional[str] = None) -> nn.Module:
     """
-    Factory that loads the 99.33% verified model if available,
+    Factory that loads the 99.33% verified model as a singleton in RAM,
     falling back to ResNet18 if needed.
     """
+    global _CACHED_CLASSIFIER
+    if _CACHED_CLASSIFIER is not None and weights_path is None:
+        return _CACHED_CLASSIFIER
+
     default_paths = [
         weights_path,
         os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "trained_model_and_reports", "best_model.pt"),
@@ -196,12 +203,15 @@ def load_best_classifier(weights_path: Optional[str] = None) -> nn.Module:
                 else:
                     model.load_state_dict(ckpt)
                 model.eval()
-                print(f"✓ Loaded 99.33% Accuracy AdvancedSonarClassifier from: {p}")
-                return model
+                print(f"[OK] Loaded 99.33% Accuracy AdvancedSonarClassifier from: {p}")
+                _CACHED_CLASSIFIER = model
+                return _CACHED_CLASSIFIER
             except Exception as e:
                 print(f"Notice on loading {p}: {e}")
 
     # Fallback
     fallback_model = ResNet18DebrisClassifier(num_classes=len(FLS_DEBRIS_CLASSES))
     fallback_model.eval()
-    return fallback_model
+    _CACHED_CLASSIFIER = fallback_model
+    return _CACHED_CLASSIFIER
+
